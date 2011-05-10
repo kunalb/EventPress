@@ -1,0 +1,1089 @@
+# Translation of the WordPress plugin EventPress 0.1.2 by Kunal Bhalla..
+# Copyright (C) 2010 Kunal Bhalla.
+# This file is distributed under the same license as the EventPress package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2010.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: EventPress 0.1.2.1\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2010-09-26 14:51-0500\n"
+"PO-Revision-Date: 2010-09-26 16:05-0500\n"
+"Last-Translator: Kaki Design Communication Marketing <info@kakidcm.com>\n"
+"Language-Team: Kaki Design Communication Marketing <support@kakidcm.com>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Poedit-Language: French\n"
+"X-Poedit-Country: FRANCE\n"
+"X-Poedit-Basepath: ../\n"
+
+#: controllers/bp.php:158
+msgid "This event doesn't exist."
+msgstr "Cet événement n’existe pas."
+
+#: controllers/bp.php:161
+msgid "You must be logged in to register."
+msgstr "Vous devez être connecté pour vous inscrire."
+
+#: controllers/bp.php:168
+#: controllers/register.php:38
+msgid "Cannot register for this event."
+msgstr "Impossible de s’inscrire à cet événement."
+
+#: controllers/bp.php:180
+#: controllers/register.php:48
+msgid "You've already registered for this event."
+msgstr "Vous êtes déjà inscrit à cet événement."
+
+#: controllers/bp.php:198
+#, php-format
+msgid "%s just registered for the event <a href = \"%s\">%s</a>."
+msgstr "%s vient de s’inscrire à l’événement <a href=\"%s\">%s</a>."
+
+#: controllers/bp.php:215
+msgid "Something went wrong. Please try again."
+msgstr "Une erreur s’est produite. S.V.P. essayer à nouveau."
+
+#: controllers/bp.php:279
+msgid "The invites have been sent."
+msgstr "Les invitations ont été envoyées."
+
+#: controllers/bp.php:283
+msgid "The invites couldn't be sent."
+msgstr "Les invitations n’ont pu être envoyées."
+
+#: controllers/bp.php:284
+msgid "Please select people to send an invite to."
+msgstr "Il n’y a pas de membre à qui envoyer d’invitations."
+
+#: controllers/bp.php:285
+msgid "Invalid wp-nonce."
+msgstr "wp-nonce invalide."
+
+#: controllers/bp.php:300
+msgid "Invites"
+msgstr "Invitations"
+
+#: controllers/bp.php:350
+msgid "There was no invitation found for this event."
+msgstr "Aucune invitation n’a été trouvé pour cet événement."
+
+#: controllers/bp.php:356
+msgid "Invitation Accepted"
+msgstr "Invitation acceptée"
+
+#: controllers/bp.php:364
+msgid "Invitation Rejected"
+msgstr "Invitation rejetée"
+
+#: controllers/bp.php:370
+msgid "No event was found."
+msgstr "Aucun événément trouvé."
+
+#: controllers/bp.php:424
+#, php-format
+msgid "%s invited you!."
+msgstr "%s vous invite."
+
+#: controllers/bp.php:427
+#, php-format
+msgid ""
+"%s invited you to %s\n"
+"\n"
+"\t\tTo see %s's profile: %s\n"
+"\n"
+"\t\tTo accept the invite: %s\n"
+"\t\t"
+msgstr ""
+"%s vous invite à %s\n"
+"\n"
+"\t\tPour voir le profile de  %s: %s\n"
+"\n"
+"\t\tPour accepter l’invitation: %s\n"
+"\t\t"
+
+#: controllers/bp.php:434
+#, php-format
+msgid "To disable these notifications please log in and go to: %s"
+msgstr "Pour désactiver ces notifications, connectez-vous et aller à: %s"
+
+#: controllers/csv.php:32
+msgid "Registrant"
+msgstr "Inscription"
+
+#: controllers/csv.php:32
+msgid "Registered at"
+msgstr "Usagé enregistré"
+
+#: controllers/csv.php:32
+msgid "Registration Status"
+msgstr "Status d’inscription"
+
+#: controllers/wp.php:395
+msgctxt "Metabox Heading"
+msgid "Registration Status"
+msgstr "Status d’inscription"
+
+#: models/registration.php:203
+msgctxt "registration"
+msgid "Approved"
+msgstr "Approuvée"
+
+#: controllers/csv.php:47
+#: views/admin.php:655
+msgid "Approved"
+msgstr "Approuvée"
+
+#: models/registration.php:217
+msgctxt "registration"
+msgid "Cancelled"
+msgstr "Annulée"
+
+#: controllers/csv.php:48
+#: views/admin.php:658
+msgid "Cancelled"
+msgstr "Annulée"
+
+#: controllers/post.php:22
+msgid "Must be logged in to moderate registration details."
+msgstr "Connexion obligatoire pour modérer les détails d’inscription"
+
+#: controllers/post.php:25
+msgid "No event passed."
+msgstr "Aucun événement fourni."
+
+#: controllers/post.php:30
+msgid "Invalid event id passed."
+msgstr "Identifiant d’événement invalide fourni."
+
+#: controllers/post.php:33
+msgid "What should I do? No action specified."
+msgstr "Que dois-je faire? Aucune action spécifiée."
+
+#: controllers/post.php:38
+msgid "Could not load the specified event."
+msgstr "Impossible de charger l’événement spécifé."
+
+#: controllers/post.php:42
+msgid "Cannot edit this registration."
+msgstr "Impossible de modifier cette inscription."
+
+#: controllers/post.php:53
+msgid "Invalid action specified."
+msgstr "Action spécifiée est invalide."
+
+#: controllers/register.php:24
+msgid "Incorrect eventid passed. Are you playing with the POST data?"
+msgstr "Eventid incorrecte. On s’amuse avec le data POST?"
+
+#: controllers/register.php:31
+msgid "Must be logged in to register for an event."
+msgstr "Connexion obligatoire pour s’inscrire à un événement."
+
+#: controllers/register.php:68
+#, php-format
+msgid "Please check the value you entered in %s (%s)."
+msgstr "S.V.P. vérifier les informations saisies dans %s (%s)."
+
+#: controllers/wp.php:114
+#: views/admin.php:494
+msgid "Events Options"
+msgstr "Options des événements"
+
+#: controllers/wp.php:114
+#: models/events.php:166
+#: models/events.php:215
+#: models/events.php:218
+msgid "Events"
+msgstr "Événements"
+
+#: controllers/wp.php:373
+msgctxt "Metabox Heading"
+msgid "Custom registration form"
+msgstr "Formulaire d’inscription personnalisé"
+
+#: controllers/wp.php:374
+msgctxt "Metabox Heading"
+msgid "Registration Details"
+msgstr "Détails d’inscription"
+
+#: controllers/wp.php:376
+msgctxt "Metabox Heading"
+msgid "Customize your event"
+msgstr "Personnalisez votre événement"
+
+#: controllers/wp.php:378
+msgctxt "Metabox Heading"
+msgid "Map"
+msgstr "Carte"
+
+#: controllers/wp.php:380
+msgctxt "Metabox Heading"
+msgid "Repeat"
+msgstr "Répéter"
+
+#: controllers/wp.php:396
+msgctxt "Metabox Heading"
+msgid "Registrant Details"
+msgstr "Informations du participant"
+
+#: controllers/wp.php:514
+#: models/events.php:217
+msgctxt "Role title"
+msgid "Event Creator"
+msgstr "Créateur d’événement"
+
+#: models/events.php:217
+msgid "Event Creator"
+msgstr "Créateur d’événement"
+
+#: models/events.php:101
+msgctxt "Taxonomy General Name"
+msgid "Event Tags"
+msgstr "Mots-clés d’événement"
+
+#: models/events.php:102
+msgctxt "Taxonomy Singular Name"
+msgid "Event Tags"
+msgstr "Mots-clés d’événement"
+
+#: models/events.php:103
+msgid "Search Event Tags"
+msgstr "Chercher dans les mots-clés d’événement"
+
+#: models/events.php:104
+#: models/events.php:137
+msgid "Popular Events"
+msgstr "Événements populaires"
+
+#: models/events.php:105
+msgid "All Event Tags"
+msgstr "Tous les mots-clés d’événement"
+
+#: models/events.php:106
+msgid "Parent Event Tag"
+msgstr "Mot-clé parent"
+
+#: models/events.php:107
+msgid "Parent Event Tag:"
+msgstr "Mot-clé parent:"
+
+#: models/events.php:108
+msgid "Edit Event Tag"
+msgstr "Modifier le mot-clé d’événement"
+
+#: models/events.php:109
+msgid "Update Event Tag"
+msgstr "Mettre à jour le mot-clé d’événement"
+
+#: models/events.php:110
+msgid "Add New Event Tag"
+msgstr "Ajouter un mot-clé d’événement"
+
+#: models/events.php:111
+msgid "New Event Tag Name"
+msgstr "Nom du nouveau mot-clé d’événement"
+
+#: models/events.php:134
+msgctxt "Taxonomy General Name"
+msgid "Event Categories"
+msgstr "Catégories d’événement"
+
+#: models/events.php:135
+msgctxt "Taxonomy Singular Name"
+msgid "Event Categories"
+msgstr "Catégorie d’événement"
+
+#: models/events.php:136
+msgid "Search Event Categories"
+msgstr "Chercher dans les catégories d’événement"
+
+#: models/events.php:138
+msgid "All Event Categories"
+msgstr "Toutes les catégories d’événement"
+
+#: models/events.php:139
+msgid "Parent Event Category"
+msgstr "Catégorie d’événement parente"
+
+#: models/events.php:140
+msgid "Parent Event Category:"
+msgstr "Catégorie d’événement parente:"
+
+#: models/events.php:141
+msgid "Edit Event Category"
+msgstr "Modifier la catégorie d’événement"
+
+#: models/events.php:142
+msgid "Update Event Category"
+msgstr "Mettre à jour la catégorie d’événement"
+
+#: models/events.php:143
+msgid "Add New Event Category"
+msgstr "Ajouter une catégorie d’événement"
+
+#: models/events.php:144
+msgid "New Event Category Name"
+msgstr "Nom de la nouvelle catégorie d’événement"
+
+#: models/events.php:167
+#: views/admin.php:545
+#: views/admin.php:605
+msgid "Event"
+msgstr "Événement"
+
+#: models/events.php:168
+msgctxt "event type"
+msgid "Create New"
+msgstr "Ajouter"
+
+#: models/registration.php:109
+msgctxt "registration type"
+msgid "Create New"
+msgstr "Ajouter"
+
+#: models/events.php:169
+msgid "Create New Event"
+msgstr "Créer un nouvel événement"
+
+#: models/events.php:170
+msgid "Edit Event"
+msgstr "Modifier l’événement"
+
+#: models/events.php:171
+msgctxt "event type"
+msgid "Edit"
+msgstr "Modifier"
+
+#: models/registration.php:112
+msgctxt "registration type"
+msgid "Edit"
+msgstr "Modifier"
+
+#: views/admin.php:571
+msgid "Edit"
+msgstr "Modifier"
+
+#: models/events.php:172
+msgid "New Event"
+msgstr "Nouvel événement"
+
+#: models/events.php:173
+msgid "View Event"
+msgstr "Voir l’événement"
+
+#: models/events.php:174
+msgid "Search Events"
+msgstr "Chercher dans les événements"
+
+#: models/events.php:175
+msgid "No events found"
+msgstr "Aucun événement trouvé."
+
+#: models/events.php:176
+msgid "No events found in trash"
+msgstr "Aucun événément trouvé dans la corbeille."
+
+#: models/events.php:186
+msgid "Create Events &mdash; people can RSVP, comment, fix venue, etc."
+msgstr "Créer un événement &mdash; les gens peuvent RSVP, commenter, définir des lieux, etc."
+
+#: models/events.php:213
+#, php-format
+msgid "My Events (%s)"
+msgstr "Mes événements (%s)"
+
+#: models/events.php:214
+msgid "Events Directory"
+msgstr "Répertoire d’événement"
+
+#: models/events.php:216
+#, php-format
+msgid "All Events (%s)"
+msgstr "Tous les événements (%s)"
+
+#: models/events.php:219
+msgid "Show New Events"
+msgstr "Voir les nouveaux événements"
+
+#: models/events.php:220
+msgid "My Events - Public Activity"
+msgstr "Mes événements - activités publics"
+
+#: models/events.php:357
+#, php-format
+msgid "Event updated. <a href=\"%s\">View event</a>"
+msgstr "Événement mise à jour. <a href=\"%s\">Voir l’événement</a>"
+
+#: models/events.php:358
+#: models/registration.php:181
+msgid "Custom field updated."
+msgstr "Champ personnalisé mis à jour."
+
+#: models/events.php:359
+#: models/registration.php:182
+msgid "Custom field deleted."
+msgstr "Champ personnalisé effacé."
+
+#: models/events.php:360
+msgid "Event updated."
+msgstr "Événement mis à jour"
+
+#: models/events.php:361
+#, php-format
+msgid "Event restored to revision from %s"
+msgstr "Événement récupéré depuis la révision du %s"
+
+#: models/events.php:362
+#, php-format
+msgid "Event published. <a href=\"%s\">View event</a>"
+msgstr "Événement publié. <a href=\"%s\">Voir l’événement</a>"
+
+#: models/events.php:363
+msgid "Event saved."
+msgstr "Événement enregistré"
+
+#: models/events.php:364
+#, php-format
+msgid "Event submitted. <a target=\"_blank\" href=\"%s\">Preview event</a>"
+msgstr "Événement soumis. <a target=\"_blank\" href=\"%s\">Prévisualiser l’événement</a>"
+
+#: models/events.php:365
+#, php-format
+msgid "Event scheduled for: <strong>%1$s</strong>. <a target=\"_blank\" href=\"%2$s\">Preview event</a>"
+msgstr "Événement programmé le: <strong>%1$s</strong>. <a target=\"_blank\" href=\"%2$s\">Prévisualiser l’événement.</a>"
+
+#: models/events.php:365
+#: models/registration.php:188
+msgid "M j, Y @ G:i"
+msgstr "j M, Y @ G\\hi"
+
+#: models/events.php:366
+#, php-format
+msgid "Event draft updated. <a target=\"_blank\" href=\"%s\">Preview event</a>"
+msgstr "Brouillon de l’événement mis à jour. <a target=\"_blank\" href=\"%s\">Prévisualiser l’événement</a>"
+
+#: models/events.php:482
+#: views/wp-widgets.php:71
+msgid "Events Calendar"
+msgstr "Calendrier des événements"
+
+#: models/events.php:493
+msgid "Events List"
+msgstr "Liste des événements"
+
+#: models/registration.php:107
+msgid "Registrations"
+msgstr "Inscriptions"
+
+#: models/registration.php:108
+#: themes/bp/event_details.php:29
+msgid "Registration"
+msgstr "Inscription"
+
+#: models/registration.php:110
+#: views/template.php:126
+msgid "Register"
+msgstr "S’inscrire"
+
+#: models/registration.php:111
+msgid "Edit Registration Details"
+msgstr "Modifier des détails d’inscription"
+
+#: models/registration.php:113
+msgid "New Registration"
+msgstr "Nouvel inscription"
+
+#: models/registration.php:114
+msgid "View Registrations"
+msgstr "Voir les inscriptions"
+
+#: models/registration.php:115
+msgid "Search Registrations"
+msgstr "Chercher dans les inscriptions"
+
+#: models/registration.php:116
+msgid "No registration found"
+msgstr "Aucune inscription trouvé"
+
+#: models/registration.php:117
+msgid "No registrations found in trash"
+msgstr "Aucune inscription trouvé dans la corbeille"
+
+#: models/registration.php:125
+msgid "Registration details for events"
+msgstr "Détails d’inscription pour les événements"
+
+#: models/registration.php:180
+#, php-format
+msgid "Registration updated. <a href=\"%s\">View registration</a>"
+msgstr "Inscription mise à jour. <a href=\"%s\">Voir l’inscription</a>"
+
+#: models/registration.php:183
+msgid "Registration updated."
+msgstr "Inscription mise à jour."
+
+#: models/registration.php:184
+#, php-format
+msgid "Registration restored to revision from %s"
+msgstr "Inscription récupéré depuis la révision %s"
+
+#: models/registration.php:185
+#, php-format
+msgid "Registration published. <a href=\"%s\">View registration</a>"
+msgstr "Inscription publiée. <a href=\"%s\">Voir l’inscription</a>"
+
+#: models/registration.php:186
+msgid "Registration saved."
+msgstr "Inscription enregistrée."
+
+#: models/registration.php:187
+#, php-format
+msgid "Registration submitted. <a target=\"_blank\" href=\"%s\">Preview registration</a>"
+msgstr "Inscription soumise. <a href=\"%s\">Prévisualiser l’inscription</a>"
+
+#: models/registration.php:188
+#, php-format
+msgid "Registration scheduled for: <strong>%1$s</strong>. <a target=\"_blank\" href=\"%2$s\">Preview registration</a>"
+msgstr "Inscription programmer le: <strong>%1$s</strong>. <a target=\"_blank\" href=\"%2$s\">Prévisualiser l’inscription</a>"
+
+#: models/registration.php:189
+#, php-format
+msgid "Registration draft updated. <a target=\"_blank\" href=\"%s\">Preview registration</a>"
+msgstr "Brouillon de l’inscription mis à jour. <a target=\"_blank\" href=\"%s\">Prévisualiser l’inscription</a>"
+
+#: models/registration.php:210
+msgctxt "registration"
+msgid "Pending Approval"
+msgstr "En attente d’approbation"
+
+#: views/admin.php:87
+msgid "<p>The format of the event's starting date cannot be recognized!</p>"
+msgstr "<p>Le format de la date de début de l’événement n’est pas reconnu.</p>"
+
+#: views/admin.php:88
+msgid "<p>The format of the event's ending date cannot be recognized!</p>"
+msgstr "<p>Le format de la date de fin de l’événement n’est pas reconnu.</p>"
+
+#: views/admin.php:89
+msgid "<p>This event's end date has been set before the start date!</p>"
+msgstr "<p>La date de fin de l’événement précède sa date de début.</p>"
+
+#: views/admin.php:90
+msgid "<p>The format of the registration start date cannot be recognized!</p>"
+msgstr "<p>Le format de la date de début de l’inscription n’est pas reconnu.</p>"
+
+#: views/admin.php:91
+msgid "<p>The format of the registration stop date cannot be recognized!</p>"
+msgstr "<p>Le format de la date de fin de l’inscription n’est pas reconnu.</p>"
+
+#: views/admin.php:92
+msgid "<p>The registration stop date has been set before the start date!</p>"
+msgstr "<p>La date de fin de l’inscription précède sa date de début.</p>"
+
+#: views/admin.php:93
+msgid "<p>Registration starts after the event is over!</p>"
+msgstr "<p>L’inscription débute après la fin de l’événement.</p>"
+
+#: views/admin.php:94
+msgid "<p>Please enter a valid registration limit!</p>"
+msgstr "<p>S.V.P. inscrire une période de validation valide.</p>"
+
+#: views/admin.php:157
+msgid "Javascript must be enabled for this feature to work."
+msgstr "Javascript doit être activé pour profiter de cette fonctionnalité."
+
+#: views/admin.php:164
+msgid "Display Map?"
+msgstr "Afficher la carte?"
+
+#: views/admin.php:215
+msgid "Label"
+msgstr "Libellé"
+
+#: views/admin.php:219
+msgid "Type"
+msgstr "Type"
+
+#: views/admin.php:221
+msgid "Textbox"
+msgstr "Boite texte"
+
+#: views/admin.php:222
+msgid "Checkbox"
+msgstr "Boite à cocher"
+
+#: views/admin.php:223
+msgid "Text Area"
+msgstr "Zone de texte"
+
+#: views/admin.php:228
+msgid "Description"
+msgstr "Description"
+
+#: views/admin.php:233
+msgid "Default Value"
+msgstr "Valeur par défaut"
+
+#: views/admin.php:238
+msgid "Validation"
+msgstr "Validation"
+
+#: views/admin.php:240
+msgid "None"
+msgstr "Aucun"
+
+#: views/admin.php:241
+msgid "Number"
+msgstr "Nombre"
+
+#: views/admin.php:242
+msgid "Alphanumeric"
+msgstr "Alphanumérique"
+
+#: views/admin.php:243
+msgid "Email"
+msgstr "Adresse de messagerie"
+
+#: views/admin.php:244
+msgid "Other"
+msgstr "Autre"
+
+#: views/admin.php:248
+msgid "Regular Expression"
+msgstr "Expression régulière"
+
+#: views/admin.php:253
+msgid "Delete this field"
+msgstr "Effacer ce champ"
+
+#: views/admin.php:259
+msgid "Add a new field"
+msgstr "Ajouter un nouveau champ"
+
+#: views/admin.php:275
+msgid "When does the event start?"
+msgstr "Quand est-ce que l’événement débute?"
+
+#: views/admin.php:291
+msgid "When does the event end?"
+msgstr "Quand est-ce que l’événement prend fin?"
+
+#: views/admin.php:306
+msgid "Where will it be held?"
+msgstr "Où aura-t-il lieu?"
+
+#: views/admin.php:308
+msgid "Change the venue and the map will update automatically."
+msgstr "Modifier le lieu et la carte se mettra à jour automatiquement."
+
+#: views/admin.php:323
+msgid "Registration opens at?"
+msgstr "Début de la période d’inscription:"
+
+#: views/admin.php:339
+msgid "Registration closes at?"
+msgstr "Fin de la période d’inscription:"
+
+#: views/admin.php:354
+msgid "Maximum number of attendees?"
+msgstr "Nombre maximum de participants?"
+
+#: views/admin.php:371
+msgid "Approve registrations automatically?"
+msgstr "Approuver les inscriptions automatiquement?"
+
+#: views/admin.php:468
+msgid "You do not have sufficient permissions to access this page."
+msgstr "Vous n’avez pas de permission suffisante pour accéder à cette page."
+
+#: views/admin.php:499
+msgid "Use event registration:"
+msgstr "Utiliser les inscriptions:"
+
+#: views/admin.php:501
+#: views/admin.php:508
+#: views/admin.php:516
+msgid "Yes"
+msgstr "Oui"
+
+#: views/admin.php:502
+#: views/admin.php:509
+#: views/admin.php:515
+msgid "No"
+msgstr "Non"
+
+#: views/admin.php:506
+msgid "Use Google Map:"
+msgstr "Utiliser Google Map:"
+
+#: views/admin.php:513
+msgid "Disable CSS:"
+msgstr "Désactiver le CSS par défaut:"
+
+#: views/admin.php:546
+msgid "Registered User"
+msgstr "Usagé enregistré"
+
+#: views/admin.php:547
+msgid "Time"
+msgstr "Heure"
+
+#: views/admin.php:548
+msgid "Status"
+msgstr "Status"
+
+#: views/admin.php:571
+msgid "Edit this page"
+msgstr "Modifier cette page"
+
+#: views/admin.php:572
+msgid "Approve this registration."
+msgstr "Approuver cette inscription."
+
+#: views/admin.php:572
+#: views/admin.php:658
+#: views/admin.php:661
+#: views/admin.php:722
+msgid "Approve"
+msgstr "Approuvée"
+
+#: views/admin.php:573
+msgid "Cancel this registration."
+msgstr "Annuler cette inscription."
+
+#: views/admin.php:573
+#: views/admin.php:655
+#: views/admin.php:661
+#: views/admin.php:723
+msgid "Cancel"
+msgstr "Annulée"
+
+#: views/admin.php:606
+msgid "Author"
+msgstr "Auteur"
+
+#: views/admin.php:607
+msgid "Registrations (Pending, Cancelled)"
+msgstr "Inscriptions (En attente, Annulées)"
+
+#: views/admin.php:608
+msgid "Starts"
+msgstr "Débuts"
+
+#: views/admin.php:609
+msgid "Ends"
+msgstr "Fins"
+
+#: views/admin.php:661
+msgid "Pending"
+msgstr "En attente"
+
+#: views/admin.php:664
+msgid "Unknown."
+msgstr "Inconnu."
+
+#: views/admin.php:711
+msgid "No registrations yet."
+msgstr "Aucune inscription pour l’instant."
+
+#: views/admin.php:721
+msgid "Bulk Actions"
+msgstr "Actions groupées"
+
+#: views/admin.php:726
+msgid "Apply"
+msgstr "Appliquer"
+
+#: views/admin.php:728
+msgid "Export as .csv"
+msgstr "Exporter au format .csv"
+
+#: views/admin.php:787
+msgid "Repeat this event every"
+msgstr "Répéter cet événement à chaque"
+
+#: views/admin.php:790
+msgid "days"
+msgstr "jours"
+
+#: views/admin.php:791
+msgid "weeks"
+msgstr "semaines"
+
+#: views/admin.php:792
+msgid "months"
+msgstr "mois"
+
+#: views/admin.php:793
+msgid "years"
+msgstr "années"
+
+#: views/admin.php:794
+msgid "hours"
+msgstr "heures"
+
+#: views/admin.php:795
+msgctxt "continuing from \"Repeat this event every x units _until_\""
+msgid "until"
+msgstr "jusqu’au"
+
+#: views/admin.php:806
+msgid "Please install the plugin <a href ='http://wordpress.org/extend/plugins/buddypress-custom-posts/'>BuddyPress Custom Posts</a> for EventPress to become BuddyPress enabled."
+msgstr "S.V.P. installer l’extension <a href ='http://wordpress.org/extend/plugins/buddypress-custom-posts/'>BuddyPress Custom Posts</a> pour activer les fonction BuddyPress d’EventPress."
+
+#: views/bp-tags.php:36
+#, php-format
+msgid "registered %s ago."
+msgstr "inscrit il y a %s."
+
+#: views/template.php:117
+#: views/wp-tags.php:62
+msgid "You have signed up for this event."
+msgstr "Vous êtes inscrit à cet événement."
+
+#: views/template.php:120
+#: views/wp-tags.php:65
+msgid "Your registration has not been approved yet."
+msgstr "Votre inscription n’a pas encore été approuvée."
+
+#: views/template.php:123
+#: views/wp-tags.php:68
+msgid "Your registration has been cancelled."
+msgstr "Votre inscription a été annulée."
+
+#: views/template.php:128
+#: views/wp-tags.php:80
+msgid "You must be logged in to register for this event."
+msgstr "Connexion obligatoire pour s’inscrire à un événement."
+
+#: views/template.php:129
+msgid "Registration is not open."
+msgstr "Les inscriptions ne sont pas ouvertes."
+
+#: views/template.php:210
+msgid "Accept"
+msgstr "Accepter"
+
+#: views/template.php:211
+msgid "Reject"
+msgstr "Rejeter"
+
+#: views/template.php:236
+msgid "Start date"
+msgstr "Date de début"
+
+#: views/template.php:237
+msgid "End date"
+msgstr "Date de fin"
+
+#: views/template.php:238
+msgid "Registration start"
+msgstr "Début de l’inscription"
+
+#: views/template.php:239
+msgid "Registration end"
+msgstr "Fin de l’inscription"
+
+#: views/wp-tags.php:8
+msgid "This event is password protected &mdash; enter the password to register, as well as see registrations."
+msgstr "Cet événement est protégé par un mot de passe &mdash; entrez le mot de passe pour vous inscrire, et voir les inscriptions"
+
+#: views/wp-tags.php:20
+#, php-format
+msgid "%s seats left (of %s)"
+msgstr "%s places disponible (sur %s)"
+
+#: views/wp-tags.php:26
+msgid "Already signed up"
+msgstr "Déjà inscrit"
+
+#: views/wp-tags.php:33
+msgid "Be the first to register for this event!"
+msgstr "Soyez le premier à s’inscrire à cette événement!"
+
+#: views/wp-tags.php:71
+msgid "Sign up for this event!"
+msgstr "Inscrivez-vous à cet événement!"
+
+#: views/wp-tags.php:86
+#, php-format
+msgid "Registration for this event will start on %s."
+msgstr "Les inscriptions pour cet événement débuteront le %s."
+
+#: views/wp-tags.php:90
+#, php-format
+msgid "Registration for this event stopped on %s."
+msgstr "Les inscriptions pour cet événement prennent fin le %s."
+
+#: views/wp-tags.php:94
+#, php-format
+msgid "This event ended on %s."
+msgstr "Cet événement a pris fin le %s."
+
+#: views/wp-tags.php:98
+msgid "Registration for this event is over."
+msgstr "Les inscriptions pour cet événement sont terminés."
+
+#: views/wp-widgets.php:22
+msgid "Upcoming Events"
+msgstr "Événements à venir"
+
+#: themes/bp/event_details.php:18
+msgid "at"
+msgstr "à"
+
+#: themes/bp/event_details.php:20
+msgid "At"
+msgstr "À"
+
+#: themes/bp/event_details.php:31
+msgid " from "
+msgstr "de"
+
+#: themes/bp/event_details.php:36
+msgid " to "
+msgstr "à"
+
+#: themes/bp/invites.php:46
+msgid "You have no pending invites."
+msgstr "Vous n’avez pas d’invitations en attente."
+
+#: themes/bp/registered.php:21
+msgid "No one has registered yet."
+msgstr "Personne ne s’est encore inscrit."
+
+#: themes/bp/send-invites.php:19
+msgid "There are no members to send invites to."
+msgstr "Il n’y a pas de membre à qui envoyer d’invitations"
+
+#: themes/bp/single-event.php:14
+msgid "&larr; Previous Entries"
+msgstr "&larr; Entrées précédentes"
+
+#: themes/bp/single-event.php:15
+msgid "Next Entries &rarr;"
+msgstr "Entrées suivantes &rarr;"
+
+#: themes/bp/single-event.php:23
+#: themes/bp/single-event.php:29
+#, php-format
+msgid "by %s"
+msgstr "par %s"
+
+#: themes/bp/single-event.php:27
+msgid "Permanent Link to"
+msgstr "Lien permanent à "
+
+#: themes/bp/single-event.php:29
+msgid "in"
+msgstr "dans"
+
+#: themes/bp/single-event.php:32
+msgid "Read the rest of this entry &rarr;"
+msgstr "Lire la suite de cette entrée"
+
+#: themes/bp/single-event.php:34
+msgid "<p><strong>Pages:</strong> "
+msgstr "<p><strong>Pages:</strong> "
+
+#: themes/bp/single-event.php:37
+msgid "Tags: "
+msgstr "Mots-clés"
+
+#: themes/bp/single-event.php:37
+msgid "No Comments &#187;"
+msgstr "Aucun commentaire &#187;"
+
+#: themes/bp/single-event.php:37
+msgid "1 Comment &#187;"
+msgstr "1 commentaire &#187;"
+
+#: themes/bp/single-event.php:37
+msgid "% Comments &#187;"
+msgstr "% commentaires &#187;"
+
+#: themes/bp/single-event.php:48
+msgid "Sorry, no posts matched your criteria."
+msgstr "Désolé, aucune publication ne correspond à vos critères."
+
+#: themes/wp/event_details.php:10
+msgid "Registration is from "
+msgstr "Inscription de"
+
+#: themes/wp/events.php:14
+#: themes/wp/page-events-list.php:14
+msgid "Event Archives"
+msgstr "Archive des événements"
+
+#: themes/wp/loop-event.php:3
+#: themes/wp/loop-event.php:58
+msgid "<span class=\"meta-nav\">&larr;</span> Older posts"
+msgstr "<span class=\"meta-nav\">&larr;</span> Articles anciens"
+
+#: themes/wp/loop-event.php:4
+#: themes/wp/loop-event.php:59
+msgid "Newer posts <span class=\"meta-nav\">&rarr;</span>"
+msgstr "Articles récents <span class=\"meta-nav\">&rarr;</span>"
+
+#: themes/wp/loop-event.php:10
+msgid "Not Found"
+msgstr "Pas trouvé."
+
+#: themes/wp/loop-event.php:12
+msgid "Apologies, but no results were found for the requested archive. Perhaps searching will help find a related post."
+msgstr "Désolé, mais aucun résultat ne fut trouvé pour l’archive demandée. Peut-être qu’une recherche aiderait à trouver un article en lien."
+
+#: themes/wp/loop-event.php:21
+#, php-format
+msgid "Permalink to %s"
+msgstr "Permalien vers %s"
+
+#: themes/wp/loop-event.php:36
+#, php-format
+msgid "<span class=\"%1$s\">Posted in</span> %2$s"
+msgstr "<span class=\"%1$s\">Posté dans</span> %2$s"
+
+#: themes/wp/loop-event.php:45
+#, php-format
+msgid "<span class=\"%1$s\">Tagged</span> %2$s"
+msgstr "<span class=\"%1$s\">Mots clés</span> %2$s"
+
+#: themes/wp/loop-event.php:49
+msgid "Leave a comment"
+msgstr "Laisser un commentaire"
+
+#: themes/wp/loop-event.php:49
+msgid "1 Comment"
+msgstr "1 commentaire"
+
+#: themes/wp/loop-event.php:49
+msgid "% Comments"
+msgstr "% commentaires"
+
+#: themes/wp/single-event.php:18
+#: themes/wp/single-event.php:60
+msgid "&larr;"
+msgstr "&larr;"
+
+#: themes/wp/single-event.php:19
+#: themes/wp/single-event.php:61
+msgid "&rarr;"
+msgstr "&rarr;"
+
+#: themes/wp/single-event.php:33
+msgid "Pages:"
+msgstr "Pages:"
+
+#: themes/wp/single-event.php:42
+#, php-format
+msgid "About %s"
+msgstr "À propos de %s"
+
+#: themes/wp/single-event.php:46
+#, php-format
+msgid "View all posts by %s <span class=\"meta-nav\">&rarr;</span>"
+msgstr "Voir tous les articles par  %s <span class=\"meta-nav\">&rarr;</span>"
+

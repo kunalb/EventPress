@@ -1,0 +1,15 @@
+.widget_ep_calendar {
+	width: 100%;
+}
+
+table#ep-cal th {
+	padding: 2px;
+	height: 20px;
+}
+
+table#ep-cal td {
+	background-color: #fefefe;
+	height: 45px;
+	margin: 2px;
+	vertical-align: top;
+}

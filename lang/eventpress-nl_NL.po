@@ -1,0 +1,1297 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: EventPress 0.1.2.2\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2010-09-26 14:51-0500\n"
+"PO-Revision-Date: 2010-10-11 22:42+0100\n"
+"Last-Translator: G.J. Geersing <mail@geertjangeersing.nl>\n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Poedit-Language: \n"
+"X-Poedit-Country: \n"
+"X-Poedit-SourceCharset: utf-8\n"
+"X-Poedit-KeywordsList: __;_e;__ngettext:1,2;_n:1,2;__ngettext_noop:1,2;_n_noop:1,2;_c,_nc:4c,1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;_nx_noop:4c,1,2;\n"
+"X-Poedit-Basepath: ../\n"
+"X-Poedit-Bookmarks: \n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Textdomain-Support: yes"
+
+#: controllers/bp.php:158
+#@ default
+msgid "This event doesn't exist."
+msgstr "Dit evenement bestaat niet."
+
+#: controllers/bp.php:161
+#@ default
+msgid "You must be logged in to register."
+msgstr "Je moet ingelogd zijn om te registreren."
+
+#: controllers/bp.php:168
+#: controllers/register.php:38
+#@ default
+#@ eventpress
+msgid "Cannot register for this event."
+msgstr "Je kunt niet registreren voor dit evenement."
+
+#: controllers/bp.php:180
+#: controllers/register.php:48
+#@ eventpress
+msgid "You've already registered for this event."
+msgstr "Je bent al geregistreerd voor dit evenement."
+
+#: controllers/bp.php:198
+#, php-format
+#@ eventpress
+msgid "%s just registered for the event <a href = \"%s\">%s</a>."
+msgstr "%s heeft zich net aangemeld voor dit evenement <a href = \"%s\">%s</a>."
+
+#: controllers/bp.php:216
+#@ eventpress
+msgid "Something went wrong. Please try again."
+msgstr "Er is iets mis gegaan. Probeer het opnieuw."
+
+#: controllers/bp.php:281
+#@ eventpress
+msgid "The invites have been sent."
+msgstr "De uitnodigingen zijn verzonden."
+
+#: controllers/bp.php:285
+#@ default
+msgid "The invites couldn't be sent."
+msgstr "De uitnodigingen konden niet worden verzonden."
+
+#: controllers/bp.php:286
+#@ eventpress
+msgid "Please select people to send an invite to."
+msgstr "Selecteer leden om een uitnodiging te kunnen versturen."
+
+#: controllers/bp.php:287
+#@ eventpress
+msgid "Invalid wp-nonce."
+msgstr "wp-nonce ongeldig."
+
+#: controllers/bp.php:302
+#@ eventpress
+msgid "Invites"
+msgstr "Uitnodigingen."
+
+#: controllers/bp.php:352
+#@ default
+msgid "There was no invitation found for this event."
+msgstr "Er is geen uitnodiging gevonden voor dit evenement."
+
+#: controllers/bp.php:358
+#@ eventpress
+msgid "Invitation Accepted"
+msgstr "Uitnodiging geaccepteerd."
+
+#: controllers/bp.php:366
+#@ eventpress
+msgid "Invitation Rejected"
+msgstr "Uitnodiging afgewezen."
+
+#: controllers/bp.php:372
+#@ eventpress
+msgid "No event was found."
+msgstr "Geen evenement gevonden."
+
+#: controllers/bp.php:426
+#, php-format
+#@ eventpress
+msgid "%s invited you!."
+msgstr "%s heeft je uitgenodigd!"
+
+#: controllers/bp.php:429
+#, php-format
+#@ eventpress
+msgid ""
+"%s invited you to %s\n"
+"\n"
+"\t\tTo see %s's profile: %s\n"
+"\n"
+"\t\tTo accept the invite: %s\n"
+"\t\t"
+msgstr ""
+"%s heeft je uitgenodigd voor %s\n"
+"\n"
+"\t\tOm %s's profiel te zien: %s\n"
+"\n"
+"\t\tOm deze uitnodiging te accepteren: %s\n"
+"\t\t"
+
+#: controllers/bp.php:436
+#, php-format
+#@ eventpress
+msgid "To disable these notifications please log in and go to: %s"
+msgstr "Log in om deze notificaties uit te zetten en ga naar: %s"
+
+#: controllers/csv.php:32
+#@ eventpress
+msgid "Registrant"
+msgstr "Geregistreerde"
+
+#: controllers/csv.php:32
+#@ eventpress
+msgid "Registered at"
+msgstr "Geregistreerd op "
+
+#: controllers/wp.php:395
+#@ eventpress
+msgctxt "Metabox Heading"
+msgid "Registration Status"
+msgstr "Registratiestatus"
+
+#: controllers/csv.php:32
+#@ eventpress
+msgid "Registration Status"
+msgstr "Registratiestatus"
+
+#: controllers/csv.php:47
+#@ eventpress
+msgid "Approved"
+msgstr "Goedgekeurd"
+
+#: controllers/csv.php:48
+#@ eventpress
+msgid "Cancelled"
+msgstr "Geannuleerd"
+
+#: controllers/post.php:22
+#@ default
+msgid "Must be logged in to moderate registration details."
+msgstr "Je moet ingelogd zijn om de registratie gegevens te wijzigen."
+
+#: controllers/post.php:25
+#@ default
+msgid "No event passed."
+msgstr "Geen evenementen opgegeven."
+
+#: controllers/post.php:30
+#@ default
+msgid "Invalid event id passed."
+msgstr "Ongeldig evenement id opgegeven."
+
+#: controllers/post.php:33
+#@ default
+msgid "What should I do? No action specified."
+msgstr "Wat moet ik doen? Geen actie gekozen."
+
+#: controllers/post.php:38
+#@ default
+msgid "Could not load the specified event."
+msgstr "Kan het aangegeven evenement niet laden."
+
+#: controllers/post.php:42
+#@ default
+msgid "Cannot edit this registration."
+msgstr "Kan deze registratie niet wijzigen."
+
+#: controllers/post.php:53
+#@ eventpress
+msgid "Invalid action specified."
+msgstr "Ongeldige actie gekozen."
+
+#: controllers/register.php:24
+#@ eventpress
+msgid "Incorrect eventid passed. Are you playing with the POST data?"
+msgstr "Ongeldig evenementid gekozen. Probeer je de POST data te manipuleren?"
+
+#: controllers/register.php:31
+#@ eventpress
+msgid "Must be logged in to register for an event."
+msgstr "Je moet ingeloged zijn om te registreren voor een evenement."
+
+#: controllers/register.php:68
+#, php-format
+#@ eventpress
+msgid "Please check the value you entered in %s (%s)."
+msgstr "Verifieer de waarde die je hebt omgegeven bij %s (%s)."
+
+#: views/admin.php:475
+#@ default
+msgid "Events Options"
+msgstr "Evenement opties"
+
+#: models/events.php:166
+#: models/events.php:215
+#: models/events.php:218
+#@ default
+msgid "Events"
+msgstr "Evenementen"
+
+#: controllers/wp.php:376
+#@ eventpress
+msgctxt "Metabox Heading"
+msgid "Custom registration form"
+msgstr "Aangepast registratie formulier"
+
+#: controllers/wp.php:377
+#@ eventpress
+msgctxt "Metabox Heading"
+msgid "Registration Details"
+msgstr "Registratiedetails"
+
+#: controllers/wp.php:378
+#@ eventpress
+msgctxt "Metabox Heading"
+msgid "Customize your event"
+msgstr "Pas je evenement aan"
+
+#: controllers/wp.php:380
+#@ eventpress
+msgctxt "Metabox Heading"
+msgid "Repeat"
+msgstr "Herhaal"
+
+#: controllers/wp.php:514
+#@ eventpress
+msgctxt "Role title"
+msgid "Event Creator"
+msgstr "Maker van het evenement"
+
+#: models/events.php:217
+#@ default
+msgid "Event Creator"
+msgstr "Maker van het evenement"
+
+#: models/events.php:101
+#@ default
+msgctxt "Taxonomy General Name"
+msgid "Event Tags"
+msgstr "Evenement Tags"
+
+#: models/events.php:102
+#@ default
+msgctxt "Taxonomy Singular Name"
+msgid "Event Tags"
+msgstr "Evenement Tags"
+
+#: models/events.php:103
+#@ default
+msgid "Search Event Tags"
+msgstr "Zoek Evenement Tags"
+
+#: models/events.php:104
+#: models/events.php:137
+#@ default
+msgid "Popular Events"
+msgstr "Populaire Evenementen"
+
+#: models/events.php:105
+#@ default
+msgid "All Event Tags"
+msgstr "Alle Evenement Tags"
+
+#: models/events.php:106
+#@ default
+msgid "Parent Event Tag"
+msgstr "Ouder Event Tag"
+
+#: models/events.php:107
+#@ default
+msgid "Parent Event Tag:"
+msgstr "Ouder Evenement Tag:"
+
+#: models/events.php:108
+#@ default
+msgid "Edit Event Tag"
+msgstr "Bewerk Evenement Tag"
+
+#: models/events.php:109
+#@ default
+msgid "Update Event Tag"
+msgstr "Werk Evenement Tag bij"
+
+#: models/events.php:110
+#@ default
+msgid "Add New Event Tag"
+msgstr "Voeg Evenement Tag toe"
+
+#: models/events.php:111
+#@ default
+msgid "New Event Tag Name"
+msgstr "Nieuwe Evenement Tag Naam"
+
+#: models/events.php:134
+#@ default
+msgctxt "Taxonomy General Name"
+msgid "Event Categories"
+msgstr "Evenement Categorieën"
+
+#: models/events.php:135
+#@ default
+msgctxt "Taxonomy Singular Name"
+msgid "Event Categories"
+msgstr "Evenement Categorieën"
+
+#: models/events.php:136
+#@ default
+msgid "Search Event Categories"
+msgstr "Zoek Evenement Categorieën"
+
+#: models/events.php:138
+#@ default
+msgid "All Event Categories"
+msgstr "Alle Evenement Categorieën"
+
+#: models/events.php:139
+#@ default
+msgid "Parent Event Category"
+msgstr "Ouder Evenement Categorie"
+
+#: models/events.php:140
+#@ default
+msgid "Parent Event Category:"
+msgstr "Ouder Evenement Categorie:"
+
+#: models/events.php:141
+#@ default
+msgid "Edit Event Category"
+msgstr "Bewerk Evenement Categorie"
+
+#: models/events.php:142
+#@ default
+msgid "Update Event Category"
+msgstr "Werk Evenement Categorie Bij"
+
+#: models/events.php:143
+#@ default
+msgid "Add New Event Category"
+msgstr "Voeg Nieuwe Evenement Categorie Toe"
+
+#: models/events.php:144
+#@ default
+msgid "New Event Category Name"
+msgstr "Nieuwe Evenement Categorie Naam"
+
+#: models/events.php:167
+#: views/admin.php:496
+#: views/admin.php:556
+#@ default
+msgid "Event"
+msgstr "Evenement"
+
+#: models/events.php:169
+#@ default
+msgid "Create New Event"
+msgstr "Maak Nieuw Evenement"
+
+#: models/events.php:170
+#@ default
+msgid "Edit Event"
+msgstr "Bewerk Evenement"
+
+#: themes/wp/loop-event.php:50
+#: themes/wp/single-event.php:55
+#: views/admin.php:522
+#@ twentyten
+#@ default
+msgid "Edit"
+msgstr "Bewerk"
+
+#: models/events.php:172
+#@ default
+msgid "New Event"
+msgstr "Nieuw Evenement"
+
+#: models/events.php:173
+#@ default
+msgid "View Event"
+msgstr "Bekijk Evenement"
+
+#: models/events.php:174
+#@ default
+msgid "Search Events"
+msgstr "Zoek Evenementen"
+
+#: models/events.php:175
+#@ default
+msgid "No events found"
+msgstr "Geen evenement gevonden"
+
+#: models/events.php:176
+#@ default
+msgid "No events found in trash"
+msgstr "Geen evenement gevonden in de prullenbak"
+
+#: models/events.php:186
+#@ default
+msgid "Create Events &mdash; people can RSVP, comment, fix venue, etc."
+msgstr "Maak Evenementen &mdash; leden kunnen RSVP, reageren, locatie maken, etc."
+
+#: models/events.php:213
+#, php-format
+#@ default
+msgid "My Events (%s)"
+msgstr "Mijn Evenementen (%s)"
+
+#: models/events.php:214
+#@ default
+msgid "Events Directory"
+msgstr "Overzicht van de Evenementen"
+
+#: models/events.php:216
+#, php-format
+#@ default
+msgid "All Events (%s)"
+msgstr "Alle Evenementen (%s)"
+
+#: models/events.php:219
+#@ default
+msgid "Show New Events"
+msgstr "Bekijk Nieuwe Evenementen"
+
+#: models/events.php:220
+#@ default
+msgid "My Events - Public Activity"
+msgstr "Mijn Evenementen - Openbare Activiteit"
+
+#: models/events.php:357
+#, php-format
+#@ eventpress
+msgid "Event updated. <a href=\"%s\">View event</a>"
+msgstr "Evenement bijgewerkt. <a href=\"%s\">Bekijk evenement</a>"
+
+#: models/events.php:358
+#: models/registration.php:181
+#@ eventpress
+msgid "Custom field updated."
+msgstr "Gepersonaliseerd veld bijgewerkt."
+
+#: models/events.php:359
+#: models/registration.php:182
+#@ eventpress
+msgid "Custom field deleted."
+msgstr "Gepersonaliseerd veld verwijderd."
+
+#: models/events.php:360
+#@ eventpress
+msgid "Event updated."
+msgstr "Evenement bijgewerkt."
+
+#: models/events.php:361
+#, php-format
+#@ eventpress
+msgid "Event restored to revision from %s"
+msgstr "Evenement bijgewerk naar revisie van %s"
+
+#: models/events.php:362
+#, php-format
+#@ eventpress
+msgid "Event published. <a href=\"%s\">View event</a>"
+msgstr "Evenement gepubliseerd. <a href=\"%s\">Bekijk evenement</a>"
+
+#: models/events.php:363
+#@ eventpress
+msgid "Event saved."
+msgstr "Evenement opgeslagen."
+
+#: models/events.php:364
+#, php-format
+#@ eventpress
+msgid "Event submitted. <a target=\"_blank\" href=\"%s\">Preview event</a>"
+msgstr "Evenement toegevoegd. <a target=\"_blank\" href=\"%s\">Preview evenement</a>"
+
+#: models/events.php:365
+#, php-format
+#@ eventpress
+msgid "Event scheduled for: <strong>%1$s</strong>. <a target=\"_blank\" href=\"%2$s\">Preview event</a>"
+msgstr "Evenement geprogrammeerd voor: <strong>%1$s</strong>. <a target=\"_blank\" href=\"%2$s\">Preview evenement</a>"
+
+#: models/events.php:365
+#: models/registration.php:188
+#@ default
+msgid "M j, Y @ G:i"
+msgstr "j M, Y @ G\\hi"
+
+#: models/events.php:366
+#, php-format
+#@ eventpress
+msgid "Event draft updated. <a target=\"_blank\" href=\"%s\">Preview event</a>"
+msgstr "Evenement draft bijgewerkt. <a target=\"_blank\" href=\"%s\">Preview evenement</a>"
+
+#: models/events.php:482
+#: themes/bp/page-events-calendar.php:16
+#: themes/wp/page-events-calendar.php:15
+#: views/wp-widgets.php:71
+#@ eventpress
+msgid "Events Calendar"
+msgstr "Evenementen Kalender"
+
+#: models/events.php:493
+#@ eventpress
+msgid "Events List"
+msgstr "Evenementen Lijst"
+
+#: models/registration.php:107
+#@ eventpress
+msgid "Registrations"
+msgstr "Aanmeldingen"
+
+#: models/registration.php:108
+#: themes/bp/event_details.php:29
+#@ eventpress
+msgid "Registration"
+msgstr "Aanmelding"
+
+#: models/registration.php:110
+#: views/template.php:124
+#: views/wp-tags.php:74
+#@ eventpress
+msgid "Register"
+msgstr "Aanmelden"
+
+#: models/registration.php:111
+#@ eventpress
+msgid "Edit Registration Details"
+msgstr "Bewerk Aanmeldgegevens"
+
+#: models/registration.php:113
+#@ eventpress
+msgid "New Registration"
+msgstr "Nieuwe Aanmelding"
+
+#: models/registration.php:114
+#@ eventpress
+msgid "View Registrations"
+msgstr "Bekijk Aanmeldingen"
+
+#: models/registration.php:115
+#@ eventpress
+msgid "Search Registrations"
+msgstr "Zoek Aanmeldingen"
+
+#: models/registration.php:116
+#@ eventpress
+msgid "No registration found"
+msgstr "Geen aanmelding gevonden"
+
+#: models/registration.php:117
+#@ eventpress
+msgid "No registrations found in trash"
+msgstr "Geen aanmeldingen gevonden in de prullenmand"
+
+#: models/registration.php:125
+#@ eventpress
+msgid "Registration details for events"
+msgstr "Aanmeldgegevens voor evenementen"
+
+#: models/registration.php:180
+#, php-format
+#@ eventpress
+msgid "Registration updated. <a href=\"%s\">View registration</a>"
+msgstr "Aanmelding bijgewerkt. <a href=\"%s\">Bekijk aanmelding</a>"
+
+#: models/registration.php:183
+#@ eventpress
+msgid "Registration updated."
+msgstr "Aanmelding bijgewerkt."
+
+#: models/registration.php:184
+#, php-format
+#@ eventpress
+msgid "Registration restored to revision from %s"
+msgstr "Aanmelding teruggezet naar revisie van %s"
+
+#: models/registration.php:185
+#, php-format
+#@ eventpress
+msgid "Registration published. <a href=\"%s\">View registration</a>"
+msgstr "Aanmelding gepubliseerd. <a href=\"%s\">Bekijk aanmelding</a>"
+
+#: models/registration.php:186
+#@ eventpress
+msgid "Registration saved."
+msgstr "Aanmelding opgeslagen."
+
+#: models/registration.php:187
+#, php-format
+#@ eventpress
+msgid "Registration submitted. <a target=\"_blank\" href=\"%s\">Preview registration</a>"
+msgstr "Aanmelding verzonden. <a target=\"_blank\" href=\"%s\">Bekijk aanmelding</a>"
+
+#: models/registration.php:188
+#, php-format
+#@ eventpress
+msgid "Registration scheduled for: <strong>%1$s</strong>. <a target=\"_blank\" href=\"%2$s\">Preview registration</a>"
+msgstr "Aanmelding ingeplanned voor: <strong>%1$s</strong>. <a target=\"_blank\" href=\"%2$s\">Bekijk aanmelding</a>"
+
+#: models/registration.php:189
+#, php-format
+#@ eventpress
+msgid "Registration draft updated. <a target=\"_blank\" href=\"%s\">Preview registration</a>"
+msgstr "Aanmelding draft bijgewerkt. <a target=\"_blank\" href=\"%s\">Bekijk aanmelding</a>"
+
+#: models/registration.php:203
+#@ eventpress
+msgctxt "registration"
+msgid "Approved"
+msgstr "Goedgekeurd"
+
+#: models/registration.php:210
+#@ eventpress
+msgctxt "registration"
+msgid "Pending Approval"
+msgstr "In afwachting van goedkeuring"
+
+#: models/registration.php:217
+#@ eventpress
+msgctxt "registration"
+msgid "Cancelled"
+msgstr "Geannuleerd"
+
+#: views/admin.php:87
+#@ default
+msgid "<p>The format of the event's starting date cannot be recognized!</p>"
+msgstr "<p>Het formaat van de startdatum van het evenement kan niet worden herkend!</p>"
+
+#: views/admin.php:88
+#@ default
+msgid "<p>The format of the event's ending date cannot be recognized!</p>"
+msgstr "<p>Het formaat van de einddatum van het evenement kan niet worden herkend!</p>"
+
+#: views/admin.php:89
+#@ default
+msgid "<p>This event's end date has been set before the start date!</p>"
+msgstr "<p>Einddatum van het evenement ligt voor de startdatum!</p>"
+
+#: views/admin.php:90
+#@ default
+msgid "<p>The format of the registration start date cannot be recognized!</p>"
+msgstr "<p>Het formaat van de startdatum van de aanmelding kan niet worden herkend!</p>"
+
+#: views/admin.php:91
+#@ default
+msgid "<p>The format of the registration stop date cannot be recognized!</p>"
+msgstr "<p>Het formaat van de einddatum voor registratie kan niet worden herkend!</p>"
+
+#: views/admin.php:92
+#@ default
+msgid "<p>The registration stop date has been set before the start date!</p>"
+msgstr "<p>De einddatum voor registraties ligt voor de startdatum!</p>"
+
+#: views/admin.php:93
+#@ default
+msgid "<p>Registration starts after the event is over!</p>"
+msgstr "<p>Aanmeldingen starten na de einddatum van het evenement!</p>"
+
+#: views/admin.php:94
+#@ default
+msgid "<p>Please enter a valid registration limit!</p>"
+msgstr "<p>Voeg een correcte aanmeldperiode toe!</p>"
+
+#: views/admin.php:158
+#@ eventpress
+msgid "Display Map?"
+msgstr "Kaart laten zien?"
+
+#: views/admin.php:207
+#@ eventpress
+msgid "Label"
+msgstr "Label"
+
+#: views/admin.php:212
+#@ eventpress
+msgid "Type"
+msgstr "Type"
+
+#: views/admin.php:208
+#@ eventpress
+msgid "Textbox"
+msgstr "Textbox"
+
+#: views/admin.php:209
+#@ eventpress
+msgid "Checkbox"
+msgstr "Checkbox"
+
+#: views/admin.php:211
+#@ eventpress
+msgid "Description"
+msgstr "Omschrijving"
+
+#: views/admin.php:213
+#@ eventpress
+msgid "Default Value"
+msgstr "Standaard Waarde"
+
+#: views/admin.php:214
+#@ eventpress
+msgid "Validation"
+msgstr "Validatie"
+
+#: views/admin.php:215
+#@ eventpress
+msgid "None"
+msgstr "Geen"
+
+#: views/admin.php:216
+#@ eventpress
+msgid "Number"
+msgstr "Nummer"
+
+#: views/admin.php:217
+#@ eventpress
+msgid "Alphanumeric"
+msgstr "Alfanumeriek"
+
+#: views/admin.php:218
+#@ eventpress
+msgid "Email"
+msgstr "Email"
+
+#: views/admin.php:219
+#@ eventpress
+msgid "Other"
+msgstr "Anders"
+
+#: views/admin.php:220
+#@ eventpress
+msgid "Regular Expression"
+msgstr "Regular Expression"
+
+#: views/admin.php:221
+#@ eventpress
+msgid "Delete this field"
+msgstr "Verwijder dit veld"
+
+#: views/admin.php:273
+#@ eventpress
+msgid "Add a new field"
+msgstr "Voeg een nieuw veld toe"
+
+#: views/admin.php:288
+#@ eventpress
+msgid "When does the event start?"
+msgstr "Wanneer begint het evenement?"
+
+#: views/admin.php:304
+#@ eventpress
+msgid "When does the event end?"
+msgstr "Tot wanneer duurt het evenement?"
+
+#: views/admin.php:319
+#@ eventpress
+msgid "Where will it be held?"
+msgstr "Waar wordt het evenement gehouden?"
+
+#: views/admin.php:335
+#@ eventpress
+msgid "Registration opens at?"
+msgstr "Aanmeldingen starten op?"
+
+#: views/admin.php:351
+#@ eventpress
+msgid "Registration closes at?"
+msgstr "Aanmeldingen sluiten op?"
+
+#: views/admin.php:366
+#@ eventpress
+msgid "Maximum number of attendees?"
+msgstr "Maximum aantal aanmeldingen?"
+
+#: views/admin.php:383
+#@ eventpress
+msgid "Approve registrations automatically?"
+msgstr "Aanmeldingen automatisch goedkeuren?"
+
+#: views/admin.php:497
+#@ default
+msgid "Registered User"
+msgstr "Aangemelde gebruiker"
+
+#: views/admin.php:498
+#@ default
+msgid "Time"
+msgstr "Tijd"
+
+#: views/admin.php:499
+#@ default
+msgid "Status"
+msgstr "Status"
+
+#: views/admin.php:522
+#@ default
+msgid "Edit this page"
+msgstr "Bewerk deze pagina"
+
+#: views/admin.php:523
+#@ default
+msgid "Approve this registration."
+msgstr "Keur deze aanmelding goed."
+
+#: views/admin.php:523
+#: views/admin.php:673
+#@ default
+#@ eventpress
+msgid "Approve"
+msgstr "Goedkeuren"
+
+#: views/admin.php:524
+#@ default
+msgid "Cancel this registration."
+msgstr "Annuleer deze aanmelding."
+
+#: views/admin.php:524
+#: views/admin.php:674
+#@ default
+#@ eventpress
+msgid "Cancel"
+msgstr "Annuleren"
+
+#: views/admin.php:557
+#@ default
+msgid "Author"
+msgstr "Auteur"
+
+#: views/admin.php:558
+#@ default
+msgid "Registrations (Pending, Cancelled)"
+msgstr "Aanmeldingen (Ter goedkeuring, Geannuleerd)"
+
+#: views/admin.php:559
+#@ default
+msgid "Starts"
+msgstr "Aanvang"
+
+#: views/admin.php:560
+#@ default
+msgid "Ends"
+msgstr "Einde"
+
+#: views/admin.php:662
+#@ eventpress
+msgid "No registrations yet."
+msgstr "Nog geen aanmeldingen."
+
+#: views/admin.php:672
+#@ eventpress
+msgid "Bulk Actions"
+msgstr "Bulk Acties"
+
+#: views/admin.php:677
+#@ eventpress
+msgid "Apply"
+msgstr "Toepassen"
+
+#: views/admin.php:679
+#@ eventpress
+msgid "Export as .csv"
+msgstr "Exporteer als .csv"
+
+#: views/admin.php:738
+#@ eventpress
+msgid "Repeat this event every"
+msgstr "Herhaal dit evenement elke "
+
+#: views/admin.php:741
+#@ eventpress
+msgid "days"
+msgstr "dagen"
+
+#: views/admin.php:742
+#@ eventpress
+msgid "weeks"
+msgstr "weken"
+
+#: views/admin.php:743
+#@ eventpress
+msgid "months"
+msgstr "maanden"
+
+#: views/admin.php:744
+#@ eventpress
+msgid "years"
+msgstr "jaren"
+
+#: views/admin.php:745
+#@ eventpress
+msgid "hours"
+msgstr "uren"
+
+#: views/admin.php:746
+#@ eventpress
+msgctxt "continuing from \"Repeat this event every x units _until_\""
+msgid "until"
+msgstr "to"
+
+#: views/admin.php:757
+#@ default
+msgid "Please install the plugin <a href ='http://wordpress.org/extend/plugins/buddypress-custom-posts/'>BuddyPress Custom Posts</a> for EventPress to become BuddyPress enabled."
+msgstr "Installeer de pluging <a href ='http://wordpress.org/extend/plugins/buddypress-custom-posts/'>BuddyPress Custom Posts</a> om EventPress te activeren in BuddyPress."
+
+#: views/bp-tags.php:36
+#, php-format
+#@ eventpress
+msgid "registered %s ago."
+msgstr "%s geleden geregistreerd."
+
+#: views/template.php:115
+#: views/wp-tags.php:62
+#@ eventpress
+msgid "You have signed up for this event."
+msgstr "Je hebt je aangemeld voor dit evenement."
+
+#: views/template.php:118
+#: views/wp-tags.php:65
+#@ eventpress
+msgid "Your registration has not been approved yet."
+msgstr "Je aanmelding is nog niet goedgekeurd."
+
+#: views/template.php:121
+#: views/wp-tags.php:68
+#@ default
+#@ eventpress
+msgid "Your registration has been cancelled."
+msgstr "Je aanmelding is geannuleerd."
+
+#: views/template.php:126
+#: views/wp-tags.php:80
+#@ eventpress
+msgid "You must be logged in to register for this event."
+msgstr "Je moet ingelogged zijn om je voor dit evenement aan te melden."
+
+#: views/template.php:127
+#@ eventpress
+msgid "Registration is not open."
+msgstr "Aanmeldingen zijn niet open."
+
+#: views/template.php:210
+#@ eventpress
+msgid "Accept"
+msgstr "Accepteer"
+
+#: views/template.php:211
+#@ eventpress
+msgid "Reject"
+msgstr "Wijs af"
+
+#: views/template.php:236
+#@ eventpress
+msgid "Start date"
+msgstr "Startdatum"
+
+#: views/template.php:237
+#@ eventpress
+msgid "End date"
+msgstr "Einddatum"
+
+#: views/template.php:238
+#@ eventpress
+msgid "Registration start"
+msgstr "Start van de aanmeldingen"
+
+#: views/template.php:239
+#@ eventpress
+msgid "Registration end"
+msgstr "Eind van de aanmeldingen"
+
+#: views/wp-tags.php:20
+#, php-format
+#@ default
+msgid "%s seats left (of %s)"
+msgstr "%s plaatsen beschikbaar (van %s)"
+
+#: views/wp-tags.php:26
+#@ eventpress
+msgid "Already signed up"
+msgstr "Al aangemeld"
+
+#: views/wp-tags.php:33
+#@ eventpress
+msgid "Be the first to register for this event!"
+msgstr "Wees de eerste om je aan te melden voor dit evenement!"
+
+#: views/wp-tags.php:98
+#@ eventpress
+msgid "Registration for this event is over."
+msgstr "Aanmeldingen voor dit evenement zijn gesloten."
+
+#: views/wp-widgets.php:22
+#@ eventpress
+msgid "Upcoming Events"
+msgstr "Aanstaande Evenementen"
+
+#: themes/bp/event_details.php:18
+#@ eventpress
+msgid "at"
+msgstr "bij"
+
+#: themes/bp/event_details.php:20
+#@ eventpress
+msgid "At"
+msgstr "Bij"
+
+#: themes/bp/event_details.php:31
+#@ eventpress
+msgid " from "
+msgstr " van "
+
+#: themes/bp/event_details.php:36
+#: themes/wp/event_details.php:11
+#@ eventpress
+msgid " to "
+msgstr " tot "
+
+#: themes/bp/invites.php:46
+#@ eventpress
+msgid "You have no pending invites."
+msgstr "Je hebt geen uitnodigingen uitstaan."
+
+#: themes/bp/registered.php:21
+#@ buddypress
+msgid "No one has registered yet."
+msgstr "Niemand heeft zich tot nu toe aangemeld."
+
+#: themes/bp/send-invites.php:19
+#@ eventpress
+msgid "There are no members to send invites to."
+msgstr "Er zijn geen leden om uitnodigingen aan te versturen."
+
+#: themes/bp/single-event.php:14
+#@ buddypress
+msgid "&larr; Previous Entries"
+msgstr "&larr; Eerder"
+
+#: themes/bp/single-event.php:15
+#@ buddypress
+msgid "Next Entries &rarr;"
+msgstr "Volgende &rarr;"
+
+#: themes/bp/single-event.php:23
+#: themes/bp/single-event.php:29
+#, php-format
+#@ buddypress
+msgid "by %s"
+msgstr "door %s"
+
+#: themes/bp/single-event.php:27
+#@ buddypress
+msgid "Permanent Link to"
+msgstr "Permanent Link naar "
+
+#: themes/bp/single-event.php:29
+#@ buddypress
+msgid "in"
+msgstr "in"
+
+#: themes/bp/single-event.php:32
+#@ buddypress
+msgid "Read the rest of this entry &rarr;"
+msgstr "Lees verder &rarr;"
+
+#: themes/bp/single-event.php:34
+#@ buddypress
+msgid "<p><strong>Pages:</strong> "
+msgstr "<p><strong>Pagina's:</strong> "
+
+#: themes/bp/single-event.php:37
+#@ buddypress
+msgid "Tags: "
+msgstr "Tags:"
+
+#: themes/bp/single-event.php:37
+#@ buddypress
+msgid "No Comments &#187;"
+msgstr "Geen reacties &#187;"
+
+#: themes/bp/single-event.php:37
+#@ buddypress
+msgid "1 Comment &#187;"
+msgstr "1 Reactie &#187;"
+
+#: themes/bp/single-event.php:37
+#@ buddypress
+msgid "% Comments &#187;"
+msgstr "% Reacties &#187;"
+
+#: themes/bp/single-event.php:48
+#@ buddypress
+msgid "Sorry, no posts matched your criteria."
+msgstr "Geen artikelen gevonden voor je criteria."
+
+#: themes/wp/event_details.php:10
+#@ eventpress
+msgid "Registration is from "
+msgstr "Aanmelden vanaf "
+
+#: themes/wp/events.php:14
+#: themes/wp/page-events-list.php:14
+#@ default
+msgid "Event Archives"
+msgstr "Evenementen Archief"
+
+#: themes/wp/loop-event.php:3
+#: themes/wp/loop-event.php:58
+#@ twentyten
+msgid "<span class=\"meta-nav\">&larr;</span> Older posts"
+msgstr "<span class=\"meta-nav\">&larr;</span> Oudere artikelen"
+
+#: themes/wp/loop-event.php:4
+#: themes/wp/loop-event.php:59
+#@ twentyten
+msgid "Newer posts <span class=\"meta-nav\">&rarr;</span>"
+msgstr "Nieuwere artikelen <span class=\"meta-nav\">&rarr;</span>"
+
+#: themes/wp/loop-event.php:10
+#@ twentyten
+msgid "Not Found"
+msgstr "Niet Gevonden"
+
+#: themes/wp/loop-event.php:12
+#@ twentyten
+msgid "Apologies, but no results were found for the requested archive. Perhaps searching will help find a related post."
+msgstr "Geen resultaat gevonden voor het opgevraagde archief. Mischien helpt het om te zoeken naar een bijpassend artikel."
+
+#: themes/wp/loop-event.php:21
+#, php-format
+#@ twentyten
+msgid "Permalink to %s"
+msgstr "Permalink naar %s"
+
+#: themes/wp/loop-event.php:36
+#, php-format
+#@ twentyten
+msgid "<span class=\"%1$s\">Posted in</span> %2$s"
+msgstr "<span class=\"%1$s\">Posted in</span> %2$s"
+
+#: themes/wp/loop-event.php:45
+#, php-format
+#@ twentyten
+msgid "<span class=\"%1$s\">Tagged</span> %2$s"
+msgstr "<span class=\"%1$s\">Tagged</span> %2$s"
+
+#: themes/wp/loop-event.php:49
+#@ twentyten
+msgid "Leave a comment"
+msgstr "Laat een reactie achter"
+
+#: themes/wp/loop-event.php:49
+#@ twentyten
+msgid "1 Comment"
+msgstr "1 Reactie"
+
+#: themes/wp/loop-event.php:49
+#@ twentyten
+msgid "% Comments"
+msgstr "% Reacties"
+
+#: themes/wp/single-event.php:33
+#@ twentyten
+msgid "Pages:"
+msgstr "Pagina's:"
+
+#: themes/wp/single-event.php:42
+#, php-format
+#@ twentyten
+msgid "About %s"
+msgstr "Over %s"
+
+#: themes/wp/single-event.php:46
+#, php-format
+#@ twentyten
+msgid "View all posts by %s <span class=\"meta-nav\">&rarr;</span>"
+msgstr "Bekijk alle artikelen van %s <span class=\"meta-nav\">&rarr;</span>"
+
+#: controllers/wp.php:379
+#@ eventpress
+msgctxt "Map Metabox Heading"
+msgid "Map"
+msgstr "Kaart"
+
+#: controllers/wp.php:396
+#@ eventpress
+msgctxt "Metabox Heading"
+msgid "Registrant Details"
+msgstr "Gegevens Aanmelder"
+
+#: models/events.php:168
+#: models/registration.php:109
+#@ default
+#@ eventpress
+msgctxt "Event"
+msgid "Create New"
+msgstr "Nieuwe Maken"
+
+#: models/events.php:171
+#: models/registration.php:112
+#@ default
+#@ eventpress
+msgctxt "Event"
+msgid "Edit"
+msgstr "Bewerk"
+
+#: models/registration.php:204
+#, php-format
+#@ default
+msgid "Approved <span class=\"count\">(%s)</span>"
+msgid_plural "Approved <span class=\"count\">(%s)</span>"
+msgstr[0] ""
+msgstr[1] ""
+
+#: models/registration.php:211
+#, php-format
+#@ default
+msgid "Pending <span class=\"count\">(%s)</span>"
+msgid_plural "Pending <span class=\"count\">(%s)</span>"
+msgstr[0] ""
+msgstr[1] ""
+
+#: models/registration.php:218
+#, php-format
+#@ default
+msgid "Cancelled <span class=\"count\">(%s)</span>"
+msgid_plural "Cancelled <span class=\"count\">(%s)</span>"
+msgstr[0] ""
+msgstr[1] ""
+
+#: themes/wp/single-event.php:18
+#: themes/wp/single-event.php:60
+#@ twentyten
+msgctxt "Previous post link"
+msgid "&larr;"
+msgstr ""
+
+#: themes/wp/single-event.php:19
+#: themes/wp/single-event.php:61
+#@ twentyten
+msgctxt "Next post link"
+msgid "&rarr;"
+msgstr ""
+
+#: views/admin.php:151
+#@ eventpress
+msgid "JavaScript must be enabled for this feature to work."
+msgstr "Javascript moet aanstaan voor deze functionaliteit."
+
+#: views/admin.php:161
+#@ eventpress
+msgid "(Changing the venue will automatically update the map.)"
+msgstr "(Kaart wordt automatisch bijgewerkt bij het wijzigen van de locatie.)"
+
+#: views/admin.php:210
+#@ eventpress
+msgid "Textarea"
+msgstr "Textarea"
+
+#: views/wp-tags.php:86
+#, php-format
+#@ eventpress
+msgid "Registration for this event will start on %s"
+msgstr "Registratie voor dit evenement start op %s"
+
+#: views/wp-tags.php:90
+#, php-format
+#@ eventpress
+msgid "Registration for this event stopped on %s"
+msgstr "Registratie voor dit evenement stopt op %s"
+
+#: views/wp-tags.php:94
+#, php-format
+#@ eventpress
+msgid "This event ended on %s"
+msgstr "Dit evenement is op %s afgelopen"
+

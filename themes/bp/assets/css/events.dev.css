@@ -1,0 +1,73 @@
+.ep-event-details-container {
+	margin: 1em 0;
+}
+
+.ep-event-detail {
+	font-weight: bold;
+}
+
+.ep-event-details {
+	-moz-border-radius:3px 3px 3px 3px;
+	background:none repeat scroll 0 0 #FFF9DB;
+	border-bottom:1px solid #FFE8C4;
+	border-right:1px solid #FFE8C4;
+	color: #FFA200;
+	font-size:13px;
+	line-height: 20px;
+	font-weight:normal;
+	margin-top:6px;
+	padding:1px 8px;
+	text-decoration:none;
+	margin-bottom: 10px;
+}
+
+#events-list .ep-event-details {
+	display: inline-block;
+}
+
+.ep-user {
+	border-right: solid #ffe8c4 1px;
+	border-bottom: solid #ffe8c4 1px;
+	background-color: #fff9db;
+	-moz-border-radius: 5px;
+	text-align: center;
+	width: 60px;
+	height: 90px;
+	float: left;
+	margin: 10px;
+	position: relative;
+}
+
+.ep-avatar {
+	background-color: #fff;
+	display: block;
+	padding: 2px;
+	margin: 3px auto;
+}
+
+.ep-checkbox {
+	position: relative;
+	top: -20px;
+}
+
+.ep-member-link {
+	display: block;
+	position: relative;
+	top: -20px;
+}
+
+.ep-regform-label {
+	color: #444;
+	text-align: right;
+	display: block;
+	cursor: pointer;
+	float: left;
+	width: 120px;
+	margin-right: 30px;
+}
+
+.ep-regform-description {
+	color: #444;
+	font-size: .9em;
+	margin-left: 150px;
+}

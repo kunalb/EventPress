@@ -1,0 +1,912 @@
+# Translation of the WordPress plugin EventPress 0.1.2 by Kunal Bhalla..
+# Copyright (C) 2010 Kunal Bhalla.
+# This file is distributed under the same license as the EventPress package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2010.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: EventPress 0.1.2.1\n"
+"Report-Msgid-Bugs-To: http://wordpress.org/tag/eventpress\n"
+"POT-Creation-Date: 2010-09-15 02:46+0530\n"
+"PO-Revision-Date: 2010-10-10 14:06+0100\n"
+"Last-Translator: Carl Martin Haug <cmuh85@hotmail.com>\n"
+"Language-Team: none <cmuh@hotmaill.com>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Poedit-Language: Norwegian\n"
+"X-Poedit-Country: NORWAY\n"
+
+#: controllers/bp.php:158
+msgid "This event doesn't exist."
+msgstr "Eventen finnes ikke."
+
+#: controllers/bp.php:161
+msgid "You must be logged in to register."
+msgstr "Du må logge inn får å melde deg på."
+
+#: controllers/bp.php:168
+#: controllers/register.php:38
+msgid "Cannot register for this event."
+msgstr "Kunne ikke påmelde."
+
+#: controllers/bp.php:180
+#: controllers/register.php:48
+msgid "You've already registered for this event."
+msgstr "Du har allerede påmeldt deg til denne event."
+
+#: controllers/bp.php:198
+#, php-format
+msgid "%s just registered for the event <a href = \"%s\">%s</a>."
+msgstr "%s påmeldte seg nettopp til eventen <a href = \"%s\">%s</a>."
+
+#: controllers/bp.php:215
+msgid "Something went wrong. Please try again."
+msgstr "Noe gikk galt, prøv igjen."
+
+#: controllers/bp.php:302
+msgid "Invites"
+msgstr "Invitasjoner"
+
+#: controllers/bp.php:352
+msgid "There was no invitation found for this event."
+msgstr "Ingen invitasjoner funnet for denne eventen."
+
+#: controllers/bp.php:358
+msgid "Invitation Accepted"
+msgstr "Invitasjon akseptert."
+
+#: controllers/bp.php:366
+msgid "Invitation Rejected"
+msgstr "Invitasjon avvist"
+
+#: controllers/bp.php:372
+msgid "No event was found."
+msgstr "Ingen event funnet"
+
+#: controllers/bp.php:426
+#, php-format
+msgid "%s invited you!."
+msgstr "%s har invitert deg!"
+
+#: controllers/bp.php:429
+#, php-format
+msgid ""
+"%s invited you to %s\n"
+"\n"
+"\t\tTo see %s's profile: %s\n"
+"\n"
+"\t\tTo accept the invite: %s\n"
+"\t\t"
+msgstr ""
+"%s har inviteret dig til %s\n"
+"\n"
+"\t\tFor at se %s's profil gå til: %s\n"
+"\n"
+"\t\tFor å akseptere invitasjonen gå til: %s\n"
+"\t\t"
+
+#: controllers/bp.php:436
+#, php-format
+msgid "To disable these notifications please log in and go to: %s"
+msgstr "For å slå disse notisene av, må du logge inn og gå til: %s"
+
+#: controllers/post.php:22
+msgid "Must be logged in to moderate registration details."
+msgstr "Du må logge inn for å redigere påmeldings detaljer."
+
+#: controllers/post.php:25
+msgid "No event passed."
+msgstr "Ingen event."
+
+#: controllers/post.php:30
+msgid "Invalid event id passed."
+msgstr "Ugyldig event id. "
+
+#: controllers/post.php:33
+msgid "What should I do? No action specified."
+msgstr "Hva skulle gøres? Det ble ikke spesifisert en handling."
+
+#: controllers/post.php:38
+msgid "Could not load the specified event."
+msgstr "Kunne ikke laste den spesifiserte eventen."
+
+#: controllers/post.php:42
+msgid "Cannot edit this registration."
+msgstr "Kan ikke redigere påmeldingen."
+
+#: controllers/register.php:24
+msgid "Incorrect eventid passed. Are you playing with the POST data?"
+msgstr "Feil event id. Roter du med POST data?"
+
+#: controllers/register.php:31
+msgid "Must be logged in to register for an event."
+msgstr "Du må være logged inn for event påmelding."
+
+#: controllers/register.php:68
+#, php-format
+msgid "Please check the value you entered in %s (%s)."
+msgstr "Sjekk verdien du tastet inn i %s (%s)."
+
+#: controllers/wp.php:373
+msgctxt "Metabox Heading"
+msgid "Custom registration form"
+msgstr "Brukerdefinert påmeldings skjema"
+
+#: controllers/wp.php:374
+msgctxt "Metabox Heading"
+msgid "Registration Details"
+msgstr "Påmeldings Detaljer"
+
+#: controllers/wp.php:375
+msgctxt "Metabox heading"
+msgid "Customize your event"
+msgstr "Tilpass eventen din."
+
+#: controllers/wp.php:376
+msgctxt "Map Metabox heading"
+msgid "Map"
+msgstr "Kart"
+
+#: controllers/wp.php:377
+msgctxt "Metabox heading"
+msgid "Repeat"
+msgstr "Gjenta"
+
+#: controllers/wp.php:392
+msgctxt "Metabox heading"
+msgid "Registration Status"
+msgstr "Påmeldingsstatus"
+
+#: controllers/wp.php:393
+msgctxt "Metabox heading"
+msgid "Registrant Details"
+msgstr "Påmelder Detaljer"
+
+#: controllers/wp.php:509
+msgctxt "Role title"
+msgid "Event Creator"
+msgstr "Event Opretter"
+
+#: models/events.php:101
+msgctxt "Taxonomy General Name"
+msgid "Event Tags"
+msgstr "Event Tags"
+
+#: models/events.php:102
+msgctxt "Taxonomy Singular Name"
+msgid "Event Tags"
+msgstr "Event Tags"
+
+#: models/events.php:103
+msgid "Search Event Tags"
+msgstr "Søk Event Tags"
+
+#: models/events.php:104
+#: models/events.php:137
+msgid "Popular Events"
+msgstr "Populære Events"
+
+#: models/events.php:105
+msgid "All Event Tags"
+msgstr "Alle Event Tags"
+
+#: models/events.php:106
+msgid "Parent Event Tag"
+msgstr "Overordnet Event Tag"
+
+#: models/events.php:107
+msgid "Parent Event Tag:"
+msgstr "Overordnet Event Tag:"
+
+#: models/events.php:108
+msgid "Edit Event Tag"
+msgstr "Rediger Event Tag"
+
+#: models/events.php:109
+msgid "Update Event Tag"
+msgstr "Oppdater Event Tag"
+
+#: models/events.php:110
+msgid "Add New Event Tag"
+msgstr "Tilfør Nytt Event Tag"
+
+#: models/events.php:111
+msgid "New Event Tag Name"
+msgstr "Nyt Event Tags Navn"
+
+#: models/events.php:134
+msgctxt "Taxonomy General Name"
+msgid "Event Categories"
+msgstr "Event Kategorier"
+
+#: models/events.php:135
+msgctxt "Taxonomy Singular Name"
+msgid "Event Categories"
+msgstr "Event Kategorier"
+
+#: models/events.php:136
+msgid "Search Event Categories"
+msgstr "Søk Event Kategorier"
+
+#: models/events.php:138
+msgid "All Event Categories"
+msgstr "Alle Event Kategorier"
+
+#: models/events.php:139
+msgid "Parent Event Category"
+msgstr "Overordnet Event Kategori"
+
+#: models/events.php:140
+msgid "Parent Event Category:"
+msgstr "Overordnet Event Kategori:"
+
+#: models/events.php:141
+msgid "Edit Event Category"
+msgstr "Rediger Event Kategori"
+
+#: models/events.php:142
+msgid "Update Event Category"
+msgstr "Oppdater Event Kategori"
+
+#: models/events.php:143
+msgid "Add New Event Category"
+msgstr "Tilfør Ny Event Kategori"
+
+#: models/events.php:144
+msgid "New Event Category Name"
+msgstr "Nytt Event Kategorinavn"
+
+#: models/events.php:166
+#: models/events.php:215
+#: models/events.php:218
+msgid "Events"
+msgstr "Events"
+
+#: models/events.php:167
+#: views/admin.php:478
+#: views/admin.php:538
+msgid "Event"
+msgstr "Event"
+
+#: models/events.php:168
+#: models/registration.php:93
+msgctxt "Event"
+msgid "Create New"
+msgstr "Oprett Nytt"
+
+#: models/events.php:169
+msgid "Create New Event"
+msgstr "Oprett Ny Event"
+
+#: models/events.php:170
+msgid "Edit Event"
+msgstr "Rediger Event"
+
+#: models/events.php:171
+#: models/registration.php:96
+msgctxt "Event"
+msgid "Edit"
+msgstr "Rediger"
+
+#: models/events.php:172
+msgid "New Event"
+msgstr "Ny Event"
+
+#: models/events.php:173
+msgid "View Event"
+msgstr "Se Event"
+
+#: models/events.php:174
+msgid "Search Events"
+msgstr "Søk Events"
+
+#: models/events.php:175
+msgid "No events found"
+msgstr "Ingen events funnet."
+
+#: models/events.php:176
+msgid "No events found in trash"
+msgstr "Ingen events funnet i papirkurven"
+
+#: models/events.php:186
+msgid "Create Events &mdash; people can RSVP, comment, fix venue, etc."
+msgstr "Opret Events &mdash; folk kan svare på invitasjon, kommentere, fikse arena osv."
+
+#: models/events.php:213
+#, php-format
+msgid "My Events (%s)"
+msgstr "Mine Events (%s)"
+
+#: models/events.php:214
+msgid "Events Directory"
+msgstr "Events Mappe"
+
+#: models/events.php:216
+#, php-format
+msgid "All Events (%s)"
+msgstr "Alle Events (%s)"
+
+#: models/events.php:217
+msgid "Event Creator"
+msgstr "Event Oprettelse"
+
+#: models/events.php:219
+msgid "Show New Events"
+msgstr "Vis Nye Events"
+
+#: models/events.php:220
+msgid "My Events - Public Activity"
+msgstr "Mine Events - Offentlig Aktivitet"
+
+#: models/events.php:357
+#, php-format
+msgid "Event updated. <a href=\"%s\">View event</a>"
+msgstr "Event opdatert. <a href=\"%s\">Vis event</a>"
+
+#: models/events.php:358
+#: models/registration.php:165
+msgid "Custom field updated."
+msgstr "Brukerdefineret felt opdateret."
+
+#: models/events.php:359
+#: models/registration.php:166
+msgid "Custom field deleted."
+msgstr "Brukerdefineret felt slettet."
+
+#: models/events.php:360
+msgid "Event updated."
+msgstr "Event opdateret."
+
+#: models/events.php:361
+#, php-format
+msgid "Event restored to revision from %s"
+msgstr "Event gjenskapt til revisjon fra %s"
+
+#: models/events.php:362
+#, php-format
+msgid "Event published. <a href=\"%s\">View event</a>"
+msgstr "Event offentliggjort. <a href=\"%s\">Vis event</a>"
+
+#: models/events.php:363
+msgid "Event saved."
+msgstr "Event lagret."
+
+#: models/events.php:364
+#, php-format
+msgid "Event submitted. <a target=\"_blank\" href=\"%s\">Preview event</a>"
+msgstr "Event innsendt. <a target=\"_blank\" href=\"%s\">Forhåndsvis event</a>"
+
+#: models/events.php:365
+#, php-format
+msgid "Event scheduled for: <strong>%1$s</strong>. <a target=\"_blank\" href=\"%2$s\">Preview event</a>"
+msgstr "Event planlagt til: <strong>%1$s</strong>. <a target=\"_blank\" href=\"%2$s\">Forhåndsvis event</a>"
+
+#: models/events.php:365
+#: models/registration.php:172
+msgid "M j, Y @ G:i"
+msgstr "j. M Y @ G:i"
+
+#: models/events.php:366
+#, php-format
+msgid "Event draft updated. <a target=\"_blank\" href=\"%s\">Preview event</a>"
+msgstr "Event kladd opdatert. <a target=\"_blank\" href=\"%s\">Forhåndsvis event</a>"
+
+#: models/events.php:482
+#: themes/bp/page-events-calendar.php:16
+#: themes/wp/page-events-calendar.php:15
+#: views/wp-widgets.php:71
+msgid "Events Calendar"
+msgstr "Events Kalender"
+
+#: models/events.php:493
+msgid "Events List"
+msgstr "Events Liste"
+
+#: models/registration.php:91
+msgid "Registrations"
+msgstr "Påmeldinger"
+
+#: models/registration.php:92
+#: themes/bp/event_details.php:29
+msgid "Registration"
+msgstr "Påmelding"
+
+#: models/registration.php:94
+#: views/template.php:122
+msgid "Register"
+msgstr "Påmeld"
+
+#: models/registration.php:95
+msgid "Edit Registration Details"
+msgstr "Rediger Påmeldings Detaljer"
+
+#: models/registration.php:97
+msgid "New Registration"
+msgstr "Ny Påmelding"
+
+#: models/registration.php:98
+msgid "View Registrations"
+msgstr "Se Tilmeldinger"
+
+#: models/registration.php:99
+msgid "Search Registrations"
+msgstr "Søk Påmeldinger"
+
+#: models/registration.php:100
+msgid "No registration found"
+msgstr "Ingen påmelding funnet"
+
+#: models/registration.php:101
+msgid "No registrations found in trash"
+msgstr "Ingen påmeldinger funnet i papirkurven"
+
+#: models/registration.php:109
+msgid "Registration details for events"
+msgstr "Påmeldingsdetaljer for events"
+
+#: models/registration.php:164
+#, php-format
+msgid "Registration updated. <a href=\"%s\">View registration</a>"
+msgstr "Påmelding oppdatert. <a href=\"%s\">Vis påmelding</a>"
+
+#: models/registration.php:167
+msgid "Registration updated."
+msgstr "Påmelding oppdatert."
+
+#: models/registration.php:168
+#, php-format
+msgid "Registration restored to revision from %s"
+msgstr "Påmelding gjenskapt til revisjon fra %s"
+
+#: models/registration.php:169
+#, php-format
+msgid "Registration published. <a href=\"%s\">View registration</a>"
+msgstr "Påmelding offentliggjort. <a href=\"%s\">Se påmelding</a>"
+
+#: models/registration.php:170
+msgid "Registration saved."
+msgstr "Påmelding lagret."
+
+#: models/registration.php:171
+#, php-format
+msgid "Registration submitted. <a target=\"_blank\" href=\"%s\">Preview registration</a>"
+msgstr "Påmelding sendt. <a target=\"_blank\" href=\"%s\">Forhåndsvis påmelding</a>"
+
+#: models/registration.php:172
+#, php-format
+msgid "Registration scheduled for: <strong>%1$s</strong>. <a target=\"_blank\" href=\"%2$s\">Preview registration</a>"
+msgstr "Påmelding planlagt for: <strong>%1$s</strong>. <a target=\"_blank\" href=\"%2$s\">Forhåndsvis tilmelding</a>"
+
+#: models/registration.php:173
+#, php-format
+msgid "Registration draft updated. <a target=\"_blank\" href=\"%s\">Preview registration</a>"
+msgstr "Påmeldingskladd oppdatert. <a target=\"_blank\" href=\"%s\">Forhåndsvis påmelding</a>"
+
+#: models/registration.php:187
+msgctxt "registration"
+msgid "Approved"
+msgstr "Godkjent"
+
+#: models/registration.php:188
+#, php-format
+msgid "Approved <span class=\"count\">(%s)</span>"
+msgid_plural "Approved <span class=\"count\">(%s)</span>"
+msgstr[0] "Godkjent <span class=\"count\">(%s)</span>"
+msgstr[1] "Godkendte <span class=\"count\">(%s)</span>"
+
+#: models/registration.php:194
+msgctxt "registration"
+msgid "Pending Approval"
+msgstr "Avventer Godkjenning"
+
+#: models/registration.php:195
+#, php-format
+msgid "Pending <span class=\"count\">(%s)</span>"
+msgid_plural "Pending <span class=\"count\">(%s)</span>"
+msgstr[0] "Avventende<span class=\"count\">(%s)</span>"
+msgstr[1] "Afventende <span class=\"count\">(%s)</span>"
+
+#: models/registration.php:201
+msgctxt "registration"
+msgid "Cancelled"
+msgstr "Avlyst"
+
+#: models/registration.php:202
+#, php-format
+msgid "Cancelled <span class=\"count\">(%s)</span>"
+msgid_plural "Cancelled <span class=\"count\">(%s)</span>"
+msgstr[0] "Avlyst <span class=\"count\">(%s)</span>"
+msgstr[1] "Avlyste <span class=\"count\">(%s)</span>"
+
+#: themes/bp/event_details.php:18
+msgid "at"
+msgstr "kl"
+
+#: themes/bp/event_details.php:20
+msgid "At"
+msgstr "Kl"
+
+#: themes/bp/event_details.php:31
+msgid " from "
+msgstr " fra"
+
+#: themes/bp/event_details.php:36
+#: themes/wp/event_details.php:11
+msgid " to "
+msgstr " til"
+
+#: themes/bp/invites.php:46
+msgid "You have no pending invites."
+msgstr "Du har ingen avventende invitasjoner."
+
+#: themes/bp/registered.php:21
+msgid "No one has registered yet."
+msgstr "Ingen påmeldte enda."
+
+#: themes/bp/send-invites.php:19
+msgid "There are no members to send invites to."
+msgstr "Det er ingen medlemmer å sende invitasjoner til."
+
+#: themes/bp/single-event.php:14
+msgid "&larr; Previous Entries"
+msgstr "&larr; Tidligere Innlegg"
+
+#: themes/bp/single-event.php:15
+msgid "Next Entries &rarr;"
+msgstr "Neste innlegg &rarr;"
+
+#: themes/bp/single-event.php:23
+#: themes/bp/single-event.php:29
+#, php-format
+msgid "by %s"
+msgstr "av %s"
+
+#: themes/bp/single-event.php:27
+msgid "Permanent Link to"
+msgstr "Permanent Link til"
+
+#: themes/bp/single-event.php:29
+msgid "in"
+msgstr "i"
+
+#: themes/bp/single-event.php:32
+msgid "Read the rest of this entry &rarr;"
+msgstr "Les resten &rarr;"
+
+#: themes/bp/single-event.php:34
+msgid "<p><strong>Pages:</strong> "
+msgstr "<p><strong>Sider:</strong> "
+
+#: themes/bp/single-event.php:37
+msgid "Tags: "
+msgstr "Tags: "
+
+#: themes/bp/single-event.php:37
+msgid "No Comments &#187;"
+msgstr "Ingen Kommentarer &#187;"
+
+#: themes/bp/single-event.php:37
+msgid "1 Comment &#187;"
+msgstr "1 Kommentar &#187;"
+
+#: themes/bp/single-event.php:37
+msgid "% Comments &#187;"
+msgstr "% Kommentarer &#187;"
+
+#: themes/bp/single-event.php:48
+msgid "Sorry, no posts matched your criteria."
+msgstr "Desverre, ingen innlegg matchet dine kriterier."
+
+#: themes/wp/event_details.php:10
+msgid "Registration is from "
+msgstr "Påmelding er fra"
+
+#: themes/wp/events.php:14
+#: themes/wp/page-events-list.php:14
+msgid "Event Archives"
+msgstr "Event Arkiv"
+
+#: themes/wp/loop-event.php:3
+#: themes/wp/loop-event.php:58
+msgid "<span class=\"meta-nav\">&larr;</span> Older posts"
+msgstr "<span class=\"meta-nav\">&larr;</span> Eldre innlegg"
+
+#: themes/wp/loop-event.php:4
+#: themes/wp/loop-event.php:59
+msgid "Newer posts <span class=\"meta-nav\">&rarr;</span>"
+msgstr "Nyere innlegg <span class=\"meta-nav\">&rarr;</span>"
+
+#: themes/wp/loop-event.php:10
+msgid "Not Found"
+msgstr "Ikke Funnet"
+
+#: themes/wp/loop-event.php:12
+msgid "Apologies, but no results were found for the requested archive. Perhaps searching will help find a related post."
+msgstr "Det ble desverre ikke funnet noen resultater fra det arkivet. Kanskje ett søk vil hjelpe deg finne ett relatert innlegg."
+
+#: themes/wp/loop-event.php:21
+#, php-format
+msgid "Permalink to %s"
+msgstr "Permalink til %s"
+
+#: themes/wp/loop-event.php:36
+#, php-format
+msgid "<span class=\"%1$s\">Posted in</span> %2$s"
+msgstr "<span class=\"%1$s\">Skrevet i</span> %2$s"
+
+#: themes/wp/loop-event.php:45
+#, php-format
+msgid "<span class=\"%1$s\">Tagged</span> %2$s"
+msgstr "<span class=\"%1$s\">Tagged</span> %2$s"
+
+#: themes/wp/loop-event.php:49
+msgid "Leave a comment"
+msgstr "Skriv kommentar"
+
+#: themes/wp/loop-event.php:49
+msgid "1 Comment"
+msgstr "1 Kommentar"
+
+#: themes/wp/loop-event.php:49
+msgid "% Comments"
+msgstr "% Kommentarer"
+
+#: themes/wp/loop-event.php:50
+#: themes/wp/single-event.php:55
+#: views/admin.php:504
+msgid "Edit"
+msgstr "Rediger"
+
+#: themes/wp/single-event.php:18
+#: themes/wp/single-event.php:60
+msgctxt "Previous post link"
+msgid "&larr;"
+msgstr "&larr;"
+
+#: themes/wp/single-event.php:19
+#: themes/wp/single-event.php:61
+msgctxt "Next post link"
+msgid "&rarr;"
+msgstr "&rarr;"
+
+#: themes/wp/single-event.php:33
+msgid "Pages:"
+msgstr "Sider:"
+
+#: themes/wp/single-event.php:42
+#, php-format
+msgid "About %s"
+msgstr "Om %s"
+
+#: themes/wp/single-event.php:46
+#, php-format
+msgid "View all posts by %s <span class=\"meta-nav\">&rarr;</span>"
+msgstr "Vis alle innlegg fra %s <span class=\"meta-nav\">&rarr;</span>"
+
+#: views/admin.php:87
+msgid "<p>The format of the event's starting date cannot be recognized!</p>"
+msgstr "<p>Formatet på eventets start dato kunne ikke gjenkjennes!</p>"
+
+#: views/admin.php:88
+msgid "<p>The format of the event's ending date cannot be recognized!</p>"
+msgstr "<p>Formatet på eventets slutt dato kunne ikke gjenkjennes!</p>"
+
+#: views/admin.php:89
+msgid "<p>This event's end date has been set before the start date!</p>"
+msgstr "<p>Eventets slutt dato er satt til før start datoen!</p>"
+
+#: views/admin.php:90
+msgid "<p>The format of the registration start date cannot be recognized!</p>"
+msgstr "<p>Formatet på påmeldingens start dato kunne ikke gjenkjennes!</p>"
+
+#: views/admin.php:91
+msgid "<p>The format of the registration stop date cannot be recognized!</p>"
+msgstr "<p>Formatet på påmeldingens stopp dato kunne ikke genkendes!</p>"
+
+#: views/admin.php:92
+msgid "<p>The registration stop date has been set before the start date!</p>"
+msgstr "<p>Påmeldingens stopp dato er satt til før start datoen!</p>"
+
+#: views/admin.php:93
+msgid "<p>Registration starts after the event is over!</p>"
+msgstr "<p>Påmelding starter etter eventet er overstått!</p>"
+
+#: views/admin.php:94
+msgid "<p>Please enter a valid registration limit!</p>"
+msgstr "<p>Vennligst tast inn en påmeldings grense!</p>"
+
+#: views/admin.php:151
+msgid "Javscript must be enabled for this feature to work."
+msgstr "Javascript må være skrudd på for at denne funksjonen skal virke."
+
+#: views/admin.php:270
+msgid "When does the event start?"
+msgstr "Når starter eventet?"
+
+#: views/admin.php:286
+msgid "When does the event end?"
+msgstr "Når slutter eventet?"
+
+#: views/admin.php:301
+msgid "Where will it be held?"
+msgstr "Hvor holdes eventen til?"
+
+#: views/admin.php:317
+msgid "Registration opens at?"
+msgstr "Påmelding åpner d.?"
+
+#: views/admin.php:333
+msgid "Registration closes at?"
+msgstr "Påmelding  stenger d.?"
+
+#: views/admin.php:348
+msgid "Maximum number of attendees?"
+msgstr "Max antall deltagere?"
+
+#: views/admin.php:365
+msgid "Approve registrations automatically?"
+msgstr "Godkjenn påmeldinger automatisk?"
+
+#: views/admin.php:457
+msgid "Events Options"
+msgstr "Events Innstillinger"
+
+#: views/admin.php:479
+msgid "Registered User"
+msgstr "Påmeldt Bruker"
+
+#: views/admin.php:480
+msgid "Time"
+msgstr "Tid"
+
+#: views/admin.php:481
+msgid "Status"
+msgstr "Status"
+
+#: views/admin.php:504
+msgid "Edit this page"
+msgstr "Rediger denne side"
+
+#: views/admin.php:505
+msgid "Approve this registration."
+msgstr "Godkjenn denne påmeldingen."
+
+#: views/admin.php:505
+#: views/admin.php:655
+msgid "Approve"
+msgstr "Godkjenn"
+
+#: views/admin.php:506
+msgid "Cancel this registration."
+msgstr "Avslå denne påmeldingen."
+
+#: views/admin.php:506
+#: views/admin.php:656
+msgid "Cancel"
+msgstr "Avbryt"
+
+#: views/admin.php:539
+msgid "Author"
+msgstr "Forfatter"
+
+#: views/admin.php:540
+msgid "Registrations (Pending, Cancelled)"
+msgstr "Påmeldinger (Avventende, Avslåtte)"
+
+#: views/admin.php:541
+msgid "Starts"
+msgstr "Starter"
+
+#: views/admin.php:542
+msgid "Ends"
+msgstr "Slutter"
+
+#: views/admin.php:644
+msgid "No registrations yet."
+msgstr "Ingen påmeldinger enda."
+
+#: views/admin.php:654
+msgid "Bulk Actions"
+msgstr "Massehandlinger"
+
+#: views/admin.php:659
+msgid "Apply"
+msgstr "Utfør"
+
+#: views/admin.php:661
+msgid "Export as .csv"
+msgstr "Eksporter som .csv"
+
+#: views/admin.php:720
+msgid "Repeat this event every"
+msgstr "Gjenta dette event hver"
+
+#: views/admin.php:723
+msgid "days"
+msgstr "dager"
+
+#: views/admin.php:724
+msgid "weeks"
+msgstr "uker"
+
+#: views/admin.php:725
+msgid "months"
+msgstr "måneder"
+
+#: views/admin.php:726
+msgid "years"
+msgstr "år"
+
+#: views/admin.php:727
+msgid "hours"
+msgstr "timer"
+
+#: views/admin.php:728
+msgctxt "continuing from \"Repeat this event every x units _until_\""
+msgid "until"
+msgstr "inntil"
+
+#: views/admin.php:739
+msgid "Please install the plugin <a href ='http://wordpress.org/extend/plugins/buddypress-custom-posts/'>BuddyPress Custom Posts</a> for EventPress to become BuddyPress enabled."
+msgstr "Installer venligst dette plugin <a href ='http://wordpress.org/extend/plugins/buddypress-custom-posts/'>BuddyPress Custom Posts</a> for at EventPress kan slås til i BuddyPress."
+
+#: views/bp-tags.php:36
+#, php-format
+msgid "registered %s ago."
+msgstr "Påmeldt for %s siden."
+
+#: views/template.php:206
+msgid "Accept"
+msgstr "Aksepter"
+
+#: views/template.php:207
+msgid "Reject"
+msgstr "Avvis"
+
+#: views/template.php:232
+msgid "Start date"
+msgstr "Start dato"
+
+#: views/template.php:233
+msgid "End date"
+msgstr "Slut dato"
+
+#: views/template.php:234
+msgid "Registration start"
+msgstr "Påmelding starter"
+
+#: views/template.php:235
+msgid "Registration end"
+msgstr "Påmelding slutter"
+
+#: views/wp-tags.php:20
+#, php-format
+msgid "%s seats left (of %s)"
+msgstr "%s plasser igjen (af %s)"
+
+#: views/wp-widgets.php:22
+msgid "Upcoming Events"
+msgstr "Kommende Events"
+
+#. Plugin Name of the plugin/theme
+msgid "EventPress"
+msgstr "EventPress"
+
+#. Plugin URI of the plugin/theme
+msgid "http://gsocevents.wordpress.com"
+msgstr "http://gsocevents.wordpress.com"
+
+#. Description of the plugin/theme
+msgid "A BuddyPress aware events plugin for WordPress. See more details, raise issues and contribute at <a href = 'http://code.google.com/p/eventpress/'>http://code.google.com/p/eventpress/</a>."
+msgstr "Et BuddyPress events plugin til WordPress . Se flere detaljer, opstart emner og bidrag på <a href = 'http://code.google.com/p/eventpress/'>http://code.google.com/p/eventpress/</a>."
+
+#. Author of the plugin/theme
+msgid "Kunal Bhalla."
+msgstr "Kunal Bhalla."
+
+#. Author URI of the plugin/theme
+msgid "http://kunal-b.in"
+msgstr "http://kunal-b.in"
+

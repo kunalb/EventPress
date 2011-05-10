@@ -1,0 +1,80 @@
+#ep-register {
+	border-top:1px solid #E7E7E7;
+	margin-top:24px;
+}
+
+h3#ep-register-title, h3#ep-registrants-title, h3#ep-signup {
+	color:#000000;
+	font-family: "Helvetica Neue",Arial,Helvetica,"Nimbus Sans L",sans-serif;
+	font-size:20px;
+	font-weight:bold;
+	margin: 18px 0;
+}
+
+.ep-registrant {
+	border: solid #ddd 1px;
+	height: 75px;
+	width: 270px;
+	padding: 10px;
+	margin: 10px;
+}
+
+.ep-registrant .avatar {
+	background-color: #fff;
+	border: solid #aaa 2px;
+	margin: 2px;
+	padding: 3px;
+	float: left;
+}
+
+.ep-registrant-data {
+	float: left;
+	padding: 5px;
+}
+
+.ep-registration-open {
+	padding-bottom: 10px;
+}
+
+.ep-reg-status {
+	font-size: 1.2em;
+	line-height: 1.5em;
+	padding-top: 20px;
+	padding-bottom: 20px;
+}
+
+.ep-reg_pending {
+	background-color: #fffcb6;
+}
+
+.ep-event-details {
+	color: #555;
+	border: solid #ccc 1px;
+	font-style: italic;
+	font-size: .9em;
+	padding: .5em;
+}
+
+.ep-event-detail {
+	color: #000;
+	font-style: normal;
+	font-variant: small-caps;
+}
+
+.ep-regform-label {
+	color: #444;
+	font-variant: small-caps;
+	font-size: .75em;
+	text-align: right;
+	display: block;
+	cursor: pointer;
+	float: left;
+	width: 120px;
+	margin-right: 30px;
+}
+
+.ep-regform-description {
+	color: #444;
+	font-size: .9em;
+	margin-left: 150px;
+}
