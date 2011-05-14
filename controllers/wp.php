@@ -42,8 +42,10 @@ class ep_WP {
 		add_action( 'save_post', Array( &$this, 'save_meta' ), 10, 2 );
 
 		//Register a single event page and archives page, instead of duplicating the theme
-		add_filter( 'single_template', Array( &$this, 'register_event_template' ) );
 		add_filter( 'home_template', Array( &$this, 'register_events_template' ) );
+
+		//Register the function to show the event metadata on a single page
+		add_filter( 'the_content', Array( $ep_views['template'], 'event_metadata' ) );
 
 		//Register function for getting the right template part
 		add_action( 'get_template_part_event_details', Array( &$this, 'register_event_part_template' ), 10, 2 );
@@ -413,27 +415,6 @@ class ep_WP {
 		remove_meta_box( 'authordiv', 'ep_reg', 'normal' );
 		add_meta_box( 'ep-change-reg-status', _x( "Registration Status", 'Metabox Heading', 'eventpress' ), Array( &$ep_views['admin'], 'metabox_reg_status' ), 'ep_reg', 'side', 'low' );
 		add_meta_box( 'ep-registrant-details', _x( "Registrant Details", 'Metabox Heading', 'eventpress' ), Array( &$ep_views['admin'], 'metabox_author_details' ), 'ep_reg', 'side', 'high' );
-	}
-
-	/**
-	 * Registers the plugin's inbuilt single event template.
-	 *
-	 * @since 0.1
-	 *
-	 * @uses $post
-	 * 
-	 * @param string $current The file path that has been found
-	 * @return string The determined file path.
-	 */
-	function register_event_template( $current ) {
-		global $post;
-
-		if ( 'ep_event' == $post->post_type )
-			if ( !preg_match( '/single-event.php$/', $current ) ) 
-				$current = EP_THEMES_DIR . '/wp/single-event.php';
-
-		$current = apply_filters( 'ep_single_event', $current );
-		return $current;
 	}
 
 	/**

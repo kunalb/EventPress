@@ -11,31 +11,37 @@ Create Events on WordPress and BuddyPress!
 
 Create events on plain vanilla WordPress installs or on a BuddyPress install! EventPress provides support for creating & registering for events, setting venues, displaying a map, calendar, etc.
 
-Project details, feature requests, the latest builds -- all available at <a href = 'http://goo.gl/8lN4v'>http://code.google.com/p/eventpress/</a>.
+Please be sure to read the section on Support and Bugs before asking questions.
 
 == Installation ==
 
 1. Upload `plugin-name.php` to the `/wp-content/plugins/` directory
 2. Activate the plugin through the 'Plugins' menu in WordPress
 
-Note: For this plugin to work properly in BuddyPress, you need to install BuddyPress Custom Posts.
+Note: For this plugin to work properly in BuddyPress, you need to install the plugin <a href = 'http://wordpress.org/extend/plugins/buddypress-custom-posts/'>BuddyPress Custom Posts</a>.
 
 == Features ==
 * Create Events—fully integrated with WordPress; on BuddyPress users can create events with a fully functional UI from the front end itself.
 
 == Frequently Asked Questions ==
 
-= Subscribers can't create events. =
-If you want the capabilities for users to create events, upgrade them to event creators.
-
 = Why? =
 Because.
 
+= Subscribers can't create events. =
+If you want the capabilities for users to create events, upgrade them to event creators from the WordPress dashboard.
+
+== Screenshots ==
+
 == Changelog ==
 
+= 0.1.3 =
+* Various minor bugfixes.
+* Made EventPress/WordPress theme independent.
+
 = 0.1.2.4 =
- * Can now use short-tag ep-calendar.
- * Compatible with WP3.1.
+* Can now use short-tag ep-calendar.
+* Compatible with WP3.1.
 
 = 0.1.2.3 =
 * Fixes the register button bug.
@@ -45,7 +51,6 @@ Because.
 * Dutch translation by Geert Jain
 
 = 0.1.2.2 =
-See the complete changes at http://code.google.com/p/eventpress/issues/list?can=1&q=label%3AMilestone-0.1.2.2
 * Added better i18n support. Props Charles
 * Solved various capabilities bugs. Props Ali Ryder
 * French Translation from Charles
@@ -54,19 +59,22 @@ See the complete changes at http://code.google.com/p/eventpress/issues/list?can=
 * Corrected another bug in the capabilities that had come up.
 
 = 0.1.2 =
-See the complete changes at http://code.google.com/p/eventpress/issues/list?can=1&q=label%3AMilestone-0.1.2
-Highlights
  * .pot file included
  * Event Repeating error resolved.
  * Capability issues resolved.
  * Calendar widget corrected.
-etc.
 
 = 0.1.1 =
-Corrected
- * Saving metadata
- * Page templates being accidentally overwritten
+ * Corrected Saving metadata
+ * Corrected Page templates being accidentally overwritten
  * Removed dependence on folder name
 
 = 0.1 =
 First version
+
+== Support and Bugs ==
+Add any queries or feature requests on the plugin's group at <a href ='https://groups.google.com/forum/?hl=en#!forum/eventpress'>https://groups.google.com/forum/?hl=en#!forum/eventpress</a>. 
+
+Please note that __I shall not be answering queries on the WordPress.org, BuddyPress.org support forums, or other locations apart from the Google group any longer__ as keeping a watch at so many locations takes up a lot of time.
+
+Raise an issue for any bugs you come across on the github page <a href = 'http://github.com/kunalb/eventpress'>http://github.com/kunalb/eventpress</a>.

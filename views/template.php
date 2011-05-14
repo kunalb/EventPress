@@ -19,18 +19,43 @@
 class ep_template_view {
 
 	/**
+	 * Create the Event Data box in themes without having to create a new single-page template which becomes
+	 * rather theme dependent.
+	 * 
+	 * @since 0.1.3
+	 */
+	function event_metadata($content) {
+		global $post;
+
+		if ($post->post_type == 'ep_event') {
+			ob_start();
+				get_template_part('event_details');
+			$metadata = ob_get_clean();	
+
+			ob_start();
+				ep_registration_template();
+			$regform = ob_get_clean();
+
+			return $metadata . $content . $regform;
+		}
+
+		return $content;
+	}
+
+	/**
 	 * Enqueue styles and scripts for registration, and the Map API.
 	 * 
 	 * @since 0.1
 	 */
 	function wp_styles() {
 		global $post;
-		if ( !defined( 'EP_BP' ) )
+		if ( !defined( 'EP_BP' ) && $post->post_type == 'ep_event' )
 			wp_enqueue_style( 'registration-css', EP_REL_URL . '/themes/wp/assets/css/register'.kb_ext().'.css' );
 
 		//Conditionally load map API if the map is going to be shown
-		if ( get_post_meta( $post->ID, '_ep_map', true ) == true )
+		if ( get_post_meta( $post->ID, '_ep_map', true ) == true ) {
 			wp_enqueue_script( "google-map", "http://maps.google.com/maps/api/js?sensor=false" );
+		}
 	}
 
 	/**

@@ -47,20 +47,6 @@ h3#ep-register-title, h3#ep-registrants-title, h3#ep-signup {
 	background-color: #fffcb6;
 }
 
-.ep-event-details {
-	color: #555;
-	border: solid #ccc 1px;
-	font-style: italic;
-	font-size: .9em;
-	padding: .5em;
-}
-
-.ep-event-detail {
-	color: #000;
-	font-style: normal;
-	font-variant: small-caps;
-}
-
 .ep-regform-label {
 	color: #444;
 	font-variant: small-caps;
@@ -77,4 +63,21 @@ h3#ep-register-title, h3#ep-registrants-title, h3#ep-signup {
 	color: #444;
 	font-size: .9em;
 	margin-left: 150px;
+}
+
+/* Event metadata */
+.ep-event-details {
+	color: #555;
+	background-color: #eee;
+	border: solid #ddd 1px;
+	padding: .5em;
+}
+
+.ep-event-detail {
+	color: #222;
+	font-weight: bold;
+}
+
+.ep-map-container {
+	margin-bottom: 1.5em;
 }
