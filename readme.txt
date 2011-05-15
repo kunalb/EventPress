@@ -11,7 +11,7 @@ Create Events on WordPress and BuddyPress!
 
 Create events on plain vanilla WordPress installs or on a BuddyPress install! EventPress provides support for creating & registering for events, setting venues, displaying a map, calendar, etc.
 
-Project details, feature requests, the latest builds -- all available at <a href = 'http://goo.gl/8lN4v'>http://code.google.com/p/eventpress/</a>.
+Project details, feature requests, the latest builds -- all available at <a href = 'https://github.com/kunalb/EventPress'>https://github.com/kunalb/EventPress</a>.
 
 == Installation ==
 
@@ -54,19 +54,15 @@ See the complete changes at http://code.google.com/p/eventpress/issues/list?can=
 * Corrected another bug in the capabilities that had come up.
 
 = 0.1.2 =
-See the complete changes at http://code.google.com/p/eventpress/issues/list?can=1&q=label%3AMilestone-0.1.2
-Highlights
- * .pot file included
- * Event Repeating error resolved.
- * Capability issues resolved.
- * Calendar widget corrected.
-etc.
+* .pot file included
+* Event Repeating error resolved.
+* Capability issues resolved.
+* Calendar widget corrected.
 
 = 0.1.1 =
-Corrected
- * Saving metadata
- * Page templates being accidentally overwritten
- * Removed dependence on folder name
+* Saving metadata
+* Page templates being accidentally overwritten
+* Removed dependence on folder name
 
 = 0.1 =
 First version
