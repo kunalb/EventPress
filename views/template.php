@@ -32,9 +32,12 @@ class ep_template_view {
 				get_template_part('event_details');
 			$metadata = ob_get_clean();	
 
-			ob_start();
-				ep_registration_template();
-			$regform = ob_get_clean();
+			$regform = "";
+			if( is_single() ) {
+				ob_start();
+					ep_registration_template();
+				$regform = ob_get_clean();
+			}
 
 			return $metadata . $content . $regform;
 		}

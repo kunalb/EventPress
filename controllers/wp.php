@@ -41,9 +41,6 @@ class ep_WP {
 		//Save the meta data along with the post.
 		add_action( 'save_post', Array( &$this, 'save_meta' ), 10, 2 );
 
-		//Register a single event page and archives page, instead of duplicating the theme
-		add_filter( 'home_template', Array( &$this, 'register_events_template' ) );
-
 		//Register the function to show the event metadata on a single page
 		add_filter( 'the_content', Array( $ep_views['template'], 'event_metadata' ) );
 

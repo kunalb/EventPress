@@ -36,6 +36,7 @@ If you want the capabilities for users to create events, upgrade them to event c
 == Changelog ==
 
 = 0.1.3 =
+* Pretty permalinks work once more in WordPress
 * Various minor bugfixes.
 * Made EventPress/WordPress theme independent.
 
