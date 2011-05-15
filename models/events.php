@@ -191,7 +191,7 @@ class ep_event_model {
 			'menu_position' 	=> 30,
 			'taxonomies'		=> $taxonomies,
 			'register_meta_box_cb'	=> Array( &$ep_controllers['wp'], 'register_meta_boxes' ),
-			'rewrite'		=> Array( 'slug' => 'event', 'with_front' => true )
+			'rewrite'		=> Array( 'slug' => 'event' )
 		);
 
 		$args = apply_filters( 'ep_event_post_type', $args );

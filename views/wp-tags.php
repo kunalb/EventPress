@@ -430,7 +430,7 @@ if ( !function_exists( 'ep_registration_limit' ) ) {
 }
 
 if ( !function_exists( 'ep_get_map' ) ) {
-	function ep_get_map( $width = "200px", $height = "200px", $postid = 0 ) {
+	function ep_get_map( $width = "100%", $height = "100%", $postid = 0 ) {
 		global $post;
 		if ( $postid == 0 ) $postid = $post->ID;
 
@@ -441,7 +441,7 @@ if ( !function_exists( 'ep_get_map' ) ) {
 			$code = <<<CODE
 
 			<script type = 'text/javascript'>
-				jQuery(document).ready(function(){
+				window.onload = (function(){
 					var map, options, latlong, marker;
 					latlong = new google.maps.LatLng$latlong;
 					options = {
@@ -468,7 +468,7 @@ CODE;
 }
 
 if ( !function_exists( 'ep_map' ) ) {
-	function ep_map( $width, $height ) {
+	function ep_map( $width = "100%" , $height = "200px" ) {
 		echo ep_get_map( $width, $height );
 	}
 }

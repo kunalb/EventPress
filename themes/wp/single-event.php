@@ -1,9 +1,6 @@
 <?php
 /**
- * The Template for displaying all single events.
- *
- * @package EventPress
- * @subpackage epTwenty Ten
+ * DEPRECATED: NOT USED ANY LONGER 
  */
 ?>
 
