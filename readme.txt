@@ -34,8 +34,8 @@ Because.
 == Changelog ==
 
 = 0.1.2.4 =
- * Can now use short-tag ep-calendar.
- * Compatible with WP3.1.
+* Can now use short-tag ep-calendar.
+* Compatible with WP3.1.
 
 = 0.1.2.3 =
 * Fixes the register button bug.
