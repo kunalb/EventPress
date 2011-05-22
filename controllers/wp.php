@@ -42,11 +42,11 @@ class ep_WP {
 		add_action( 'save_post', Array( &$this, 'save_meta' ), 10, 2 );
 
 		//Register the function to show the event metadata on a single page
-		add_filter( 'the_content', Array( $ep_views['template'], 'event_metadata' ) );
+		if (defined('EP_BP') && EP_BP)
+			add_filter( 'the_content', Array( $ep_views['template'], 'event_metadata' ) );
 
 		//Register function for getting the right template part
 		add_action( 'get_template_part_event_details', Array( &$this, 'register_event_part_template' ), 10, 2 );
-		add_action( 'get_template_part_events_loop', Array( &$this, 'register_event_loop' ), 10, 2 );
 
 		//Modify the messages for events and registration.
 		add_filter( 'post_updated_messages', Array( $ep_models['events'], 'update_messages' ) );
@@ -71,7 +71,7 @@ class ep_WP {
 		if ( is_admin() ) 
 			add_action( 'init', array( 'ep_admin_view', 'init' ) );
 
-		//Modify the page templates array
+		//Modify the page templates array /* Deprecated. DROP BY 1.3. */
 		add_filter( 'page_template', Array( &$this, 'events_pages' ) );
 
 		//Conditionally load the styles and scripts required
@@ -373,7 +373,7 @@ class ep_WP {
 		/** @ToDo Add Event, Registration Deletion to plugin deactivation */ 
 
 		//Give a pretty URL to events. Only for WordPress, as BuddyPress will use a screen.
-		if ( !defined( 'EP_BP' ) ) {
+		if ( !defined( 'EP_BP' ) ) { /* Deprecated. DROP BY 1.3. */
 			$this->landing_page();
 		}
 
