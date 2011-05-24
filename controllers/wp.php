@@ -42,7 +42,7 @@ class ep_WP {
 		add_action( 'save_post', Array( &$this, 'save_meta' ), 10, 2 );
 
 		//Register the function to show the event metadata on a single page
-		if (defined('EP_BP') && EP_BP)
+		if (!defined('EP_BP'))
 			add_filter( 'the_content', Array( $ep_views['template'], 'event_metadata' ) );
 
 		//Register function for getting the right template part
