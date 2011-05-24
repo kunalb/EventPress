@@ -3,7 +3,7 @@ Contributors: kunalb
 Tags: Events Management, Registration, Events Calendar, BuddyPress
 Requires at least: WordPress 3.1, BuddyPress 1.2.8
 Tested up to: 3.1
-Stable tag: 0.1.2.6
+Stable tag: 0.1.2.7
 
 Create Events on WordPress and BuddyPress!
 

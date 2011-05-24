@@ -3,7 +3,7 @@
 	Plugin Name: EventPress
 	Plugin URI: http://code.google.com/p/eventpress/
 	Description: A BuddyPress aware events plugin for WordPress. See more details, raise issues and contribute at <a href = 'http://goo.gl/8lN4v'>http://code.google.com/p/eventpress/</a>.
-	Version: 0.1.2.6
+	Version: 0.1.2.7
 	Author: Kunal Bhalla. 
 	Author URI: http://kunal-b.in
 	License: GPL2
