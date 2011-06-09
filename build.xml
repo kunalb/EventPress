@@ -41,7 +41,7 @@
     <!-- ============================================  -->
     <!-- Target: build                                 -->
     <!-- ============================================  -->
-    <target name="build" depends="jsmin,cssmin,translate">
+    <target name="build" depends="jsmin,cssmin,translate,docs">
     </target>
 
     <!-- ============================================  -->
@@ -72,5 +72,20 @@
     <!-- Target: tar                                  -->  
     <!-- ============================================ -->
     <target name="tar" depends="build">
+    </target>
+
+    <!-- ============================================ -->
+    <!-- Target: docs                                 -->
+    <!-- ============================================ -->
+    <target name="docs">
+	<phpdocext 
+		title="EventPress Documentation"
+		programpath="/usr/bin/phpdoc"
+		destdir="docs"
+		sourcecode="false"
+		output="HTML:frames:earthli" 
+		quiet="true"
+		sourcepath=".">
+	</phpdocext>
     </target>
 </project>

@@ -28,15 +28,13 @@
 
 /**
  * Loader. Set constants and load the main controller.
+ *
+ * @author Kunal Bhalla
+ * @version 0.2
+ * @package EventPress
  */
 
-// Define basic constant values
-
-// The current version of the plugin 
-define( 'EP_VERSION', '0.2-bleeding' );
-
-// The plugin directory, for including files, etc.
-define( 'EP_DIR', dirname(__FILE__) );
-
-// The URL of the plugin
-define( 'EP_REL_URL', plugins_url( $path = '/' . basename( dirname( __FILE__ ) ) ) );
+/**
+ * Start your engines!
+ */
+require "ep-core.php";
