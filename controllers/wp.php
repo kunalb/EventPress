@@ -14,7 +14,6 @@
  * @since 0.1
  */
 class ep_WP {
-
 	/**
 	 * Constructor. Adds all actions and filters.
 	 *
