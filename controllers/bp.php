@@ -183,7 +183,6 @@ class ep_BP {
 		}
 
 		bp_core_redirect( wp_get_referer() );
-
 	}
 
 	/**

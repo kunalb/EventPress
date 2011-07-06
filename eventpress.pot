@@ -1,4 +1,4 @@
-# Translation of the WordPress plugin EventPress 0.2-bleeding by Kunal Bhalla..
+# Translation of the WordPress plugin EventPress 0.1.2.8 by Kunal Bhalla..
 # Copyright (C) 2011 Kunal Bhalla.
 # This file is distributed under the same license as the EventPress package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, 2011.
@@ -6,9 +6,9 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: EventPress 0.2-bleeding\n"
+"Project-Id-Version: EventPress 0.1.2.8\n"
 "Report-Msgid-Bugs-To: http://wordpress.org/tag/eventpress\n"
-"POT-Creation-Date: 2011-01-14 18:50+0530\n"
+"POT-Creation-Date: 2011-07-07 00:47+0530\n"
 "PO-Revision-Date: 2011-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -17,73 +17,89 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=INTEGER; plural=EXPRESSION;\n"
 
-#: controllers/bp.php:158
+#: controllers/bp.php:159 controllers/bp.php:209
 msgid "This event doesn't exist."
 msgstr ""
 
-#: controllers/bp.php:161
+#: controllers/bp.php:162
+msgid "You must be logged in to unregister."
+msgstr ""
+
+#: controllers/bp.php:169 controllers/unregister.php:38
+msgid "Cannot unregister for this event."
+msgstr ""
+
+#: controllers/bp.php:179
+msgid "You have been succesfully unregistered."
+msgstr ""
+
+#: controllers/bp.php:182
+msgid "You could not be unregistered."
+msgstr ""
+
+#: controllers/bp.php:212
 msgid "You must be logged in to register."
 msgstr ""
 
-#: controllers/bp.php:168 controllers/register.php:38
+#: controllers/bp.php:219 controllers/register.php:38
 msgid "Cannot register for this event."
 msgstr ""
 
-#: controllers/bp.php:180 controllers/register.php:48
+#: controllers/bp.php:231 controllers/register.php:48
 msgid "You've already registered for this event."
 msgstr ""
 
-#: controllers/bp.php:198
+#: controllers/bp.php:249
 #, php-format
 msgid "%s just registered for the event <a href = \"%s\">%s</a>."
 msgstr ""
 
-#: controllers/bp.php:216
+#: controllers/bp.php:267
 msgid "Something went wrong. Please try again."
 msgstr ""
 
-#: controllers/bp.php:281
+#: controllers/bp.php:332
 msgid "The invites have been sent."
 msgstr ""
 
-#: controllers/bp.php:285
+#: controllers/bp.php:336
 msgid "The invites couldn't be sent."
 msgstr ""
 
-#: controllers/bp.php:286
+#: controllers/bp.php:337
 msgid "Please select people to send an invite to."
 msgstr ""
 
-#: controllers/bp.php:287
+#: controllers/bp.php:338
 msgid "Invalid wp-nonce."
 msgstr ""
 
-#: controllers/bp.php:302
+#: controllers/bp.php:353
 msgid "Invites"
 msgstr ""
 
-#: controllers/bp.php:352
+#: controllers/bp.php:403
 msgid "There was no invitation found for this event."
 msgstr ""
 
-#: controllers/bp.php:358
+#: controllers/bp.php:409
 msgid "Invitation Accepted"
 msgstr ""
 
-#: controllers/bp.php:366
+#: controllers/bp.php:417
 msgid "Invitation Rejected"
 msgstr ""
 
-#: controllers/bp.php:372
+#: controllers/bp.php:423
 msgid "No event was found."
 msgstr ""
 
-#: controllers/bp.php:426
+#: controllers/bp.php:477
 #, php-format
 msgid "%s invited you!."
 msgstr ""
 
-#: controllers/bp.php:429
+#: controllers/bp.php:480
 #, php-format
 msgid ""
 "%s invited you to %s\n"
@@ -94,7 +110,7 @@ msgid ""
 "\t\t"
 msgstr ""
 
-#: controllers/bp.php:436
+#: controllers/bp.php:487
 #, php-format
 msgid "To disable these notifications please log in and go to: %s"
 msgstr ""
@@ -147,12 +163,12 @@ msgstr ""
 msgid "Invalid action specified."
 msgstr ""
 
-#: controllers/register.php:24
+#: controllers/register.php:24 controllers/unregister.php:24
 msgid "Incorrect eventid passed. Are you playing with the POST data?"
 msgstr ""
 
-#: controllers/register.php:31
-msgid "Must be logged in to register for an event."
+#: controllers/register.php:31 controllers/unregister.php:31
+msgid "Must be logged in to register/unregister for an event."
 msgstr ""
 
 #: controllers/register.php:68
@@ -160,42 +176,46 @@ msgstr ""
 msgid "Please check the value you entered in %s (%s)."
 msgstr ""
 
-#: controllers/wp.php:376
+#: controllers/unregister.php:44
+msgid "Could not unregister you from this event."
+msgstr ""
+
+#: controllers/wp.php:393
 msgctxt "Metabox Heading"
 msgid "Custom registration form"
 msgstr ""
 
-#: controllers/wp.php:377
+#: controllers/wp.php:394
 msgctxt "Metabox Heading"
 msgid "Registration Details"
 msgstr ""
 
-#: controllers/wp.php:378
+#: controllers/wp.php:395
 msgctxt "Metabox Heading"
 msgid "Customize your event"
 msgstr ""
 
-#: controllers/wp.php:379
+#: controllers/wp.php:396
 msgctxt "Map Metabox Heading"
 msgid "Map"
 msgstr ""
 
-#: controllers/wp.php:380
+#: controllers/wp.php:397
 msgctxt "Metabox Heading"
 msgid "Repeat"
 msgstr ""
 
-#: controllers/wp.php:395
+#: controllers/wp.php:412
 msgctxt "Metabox Heading"
 msgid "Registration Status"
 msgstr ""
 
-#: controllers/wp.php:396
+#: controllers/wp.php:413
 msgctxt "Metabox Heading"
 msgid "Registrant Details"
 msgstr ""
 
-#: controllers/wp.php:514
+#: controllers/wp.php:510
 msgctxt "Role title"
 msgid "Event Creator"
 msgstr ""
@@ -292,7 +312,7 @@ msgstr ""
 msgid "Events"
 msgstr ""
 
-#: models/events.php:167 views/admin.php:503 views/admin.php:563
+#: models/events.php:167 views/admin.php:506 views/admin.php:566
 msgid "Event"
 msgstr ""
 
@@ -416,15 +436,6 @@ msgstr ""
 msgid "Event draft updated. <a target=\"_blank\" href=\"%s\">Preview event</a>"
 msgstr ""
 
-#: models/events.php:482 themes/bp/page-events-calendar.php:16
-#: themes/wp/page-events-calendar.php:15 views/wp-widgets.php:71
-msgid "Events Calendar"
-msgstr ""
-
-#: models/events.php:493
-msgid "Events List"
-msgstr ""
-
 #: models/registration.php:107
 msgid "Registrations"
 msgstr ""
@@ -433,7 +444,7 @@ msgstr ""
 msgid "Registration"
 msgstr ""
 
-#: models/registration.php:110 views/template.php:124 views/wp-tags.php:74
+#: models/registration.php:110 views/template.php:154 views/wp-tags.php:82
 msgid "Register"
 msgstr ""
 
@@ -557,7 +568,7 @@ msgstr ""
 msgid " from "
 msgstr ""
 
-#: themes/bp/event_details.php:36 themes/wp/event_details.php:11
+#: themes/bp/event_details.php:36 themes/wp/event_details.php:19
 msgid " to "
 msgstr ""
 
@@ -565,7 +576,12 @@ msgstr ""
 msgid "You have no pending invites."
 msgstr ""
 
-#: themes/bp/registered.php:21
+#: themes/bp/page-events-calendar.php:16 themes/wp/page-events-calendar.php:15
+#: views/wp-widgets.php:71
+msgid "Events Calendar"
+msgstr ""
+
+#: themes/bp/registered.php:23
 msgid "No one has registered yet."
 msgstr ""
 
@@ -622,7 +638,7 @@ msgstr ""
 msgid "Sorry, no posts matched your criteria."
 msgstr ""
 
-#: themes/wp/event_details.php:10
+#: themes/wp/event_details.php:18
 msgid "Registration is from "
 msgstr ""
 
@@ -675,31 +691,31 @@ msgstr ""
 msgid "% Comments"
 msgstr ""
 
-#: themes/wp/loop-event.php:50 themes/wp/single-event.php:55
-#: views/admin.php:529
+#: themes/wp/loop-event.php:50 themes/wp/single-event.php:52
+#: views/admin.php:532
 msgid "Edit"
 msgstr ""
 
-#: themes/wp/single-event.php:18 themes/wp/single-event.php:60
+#: themes/wp/single-event.php:15 themes/wp/single-event.php:57
 msgctxt "Previous post link"
 msgid "&larr;"
 msgstr ""
 
-#: themes/wp/single-event.php:19 themes/wp/single-event.php:61
+#: themes/wp/single-event.php:16 themes/wp/single-event.php:58
 msgctxt "Next post link"
 msgid "&rarr;"
 msgstr ""
 
-#: themes/wp/single-event.php:33
+#: themes/wp/single-event.php:30
 msgid "Pages:"
 msgstr ""
 
-#: themes/wp/single-event.php:42
+#: themes/wp/single-event.php:39
 #, php-format
 msgid "About %s"
 msgstr ""
 
-#: themes/wp/single-event.php:46
+#: themes/wp/single-event.php:43
 #, php-format
 msgid "View all posts by %s <span class=\"meta-nav\">&rarr;</span>"
 msgstr ""
@@ -736,204 +752,194 @@ msgstr ""
 msgid "<p>Please enter a valid registration limit!</p>"
 msgstr ""
 
-#: views/admin.php:172
+#: views/admin.php:175
 msgid "JavaScript must be enabled for this feature to work."
 msgstr ""
 
-#: views/admin.php:179
+#: views/admin.php:182
 msgid "Display Map?"
 msgstr ""
 
-#: views/admin.php:182
+#: views/admin.php:185
 msgid "(Changing the venue will automatically update the map.)"
 msgstr ""
 
-#: views/admin.php:228
+#: views/admin.php:231
 msgid "Label"
 msgstr ""
 
-#: views/admin.php:229
+#: views/admin.php:232
 msgid "Textbox"
 msgstr ""
 
-#: views/admin.php:230
+#: views/admin.php:233
 msgid "Checkbox"
 msgstr ""
 
-#: views/admin.php:231
+#: views/admin.php:234
 msgid "Textarea"
 msgstr ""
 
-#: views/admin.php:232
+#: views/admin.php:235
 msgid "Description"
 msgstr ""
 
-#: views/admin.php:233
+#: views/admin.php:236
 msgid "Type"
 msgstr ""
 
-#: views/admin.php:234
+#: views/admin.php:237
 msgid "Default Value"
 msgstr ""
 
-#: views/admin.php:235
+#: views/admin.php:238
 msgid "Validation"
 msgstr ""
 
-#: views/admin.php:236
+#: views/admin.php:239
 msgid "None"
 msgstr ""
 
-#: views/admin.php:237
+#: views/admin.php:240
 msgid "Number"
 msgstr ""
 
-#: views/admin.php:238
+#: views/admin.php:241
 msgid "Alphanumeric"
 msgstr ""
 
-#: views/admin.php:239
+#: views/admin.php:242
 msgid "Email"
 msgstr ""
 
-#: views/admin.php:240
+#: views/admin.php:243
 msgid "Other"
 msgstr ""
 
-#: views/admin.php:241
+#: views/admin.php:244
 msgid "Regular Expression"
 msgstr ""
 
-#: views/admin.php:242
+#: views/admin.php:245
 msgid "Delete this field"
 msgstr ""
 
-#: views/admin.php:294
+#: views/admin.php:297
 msgid "Add a new field"
 msgstr ""
 
-#: views/admin.php:309
+#: views/admin.php:312
 msgid "When does the event start?"
 msgstr ""
 
-#: views/admin.php:325
+#: views/admin.php:328
 msgid "When does the event end?"
 msgstr ""
 
-#: views/admin.php:340
+#: views/admin.php:343
 msgid "Where will it be held?"
 msgstr ""
 
-#: views/admin.php:356
+#: views/admin.php:359
 msgid "Registration opens at?"
 msgstr ""
 
-#: views/admin.php:372
+#: views/admin.php:375
 msgid "Registration closes at?"
 msgstr ""
 
-#: views/admin.php:387
+#: views/admin.php:390
 msgid "Maximum number of attendees?"
 msgstr ""
 
-#: views/admin.php:404
+#: views/admin.php:407
 msgid "Approve registrations automatically?"
 msgstr ""
 
-#: views/admin.php:504
+#: views/admin.php:507 views/class-ep-regs-list-table.php:127
 msgid "Registered User"
 msgstr ""
 
-#: views/admin.php:505
+#: views/admin.php:508 views/class-ep-regs-list-table.php:128
 msgid "Time"
 msgstr ""
 
-#: views/admin.php:506
+#: views/admin.php:509 views/class-ep-regs-list-table.php:129
 msgid "Status"
 msgstr ""
 
-#: views/admin.php:529
+#: views/admin.php:532
 msgid "Edit this page"
 msgstr ""
 
-#: views/admin.php:530
+#: views/admin.php:533 views/class-ep-regs-list-table.php:228
 msgid "Approve this registration."
 msgstr ""
 
-#: views/admin.php:530 views/admin.php:680
+#: views/admin.php:533 views/class-ep-regs-list-table.php:53
+#: views/class-ep-regs-list-table.php:228
 msgid "Approve"
 msgstr ""
 
-#: views/admin.php:531
+#: views/admin.php:534 views/class-ep-regs-list-table.php:229
 msgid "Cancel this registration."
 msgstr ""
 
-#: views/admin.php:531 views/admin.php:681
+#: views/admin.php:534 views/class-ep-regs-list-table.php:54
+#: views/class-ep-regs-list-table.php:229
 msgid "Cancel"
 msgstr ""
 
-#: views/admin.php:564
+#: views/admin.php:567
 msgid "Author"
 msgstr ""
 
-#: views/admin.php:565
+#: views/admin.php:568
 msgid "Registrations (Pending, Cancelled)"
 msgstr ""
 
-#: views/admin.php:566
+#: views/admin.php:569
 msgid "Starts"
 msgstr ""
 
-#: views/admin.php:567
+#: views/admin.php:570
 msgid "Ends"
 msgstr ""
 
-#: views/admin.php:669
+#: views/admin.php:677
 msgid "No registrations yet."
 msgstr ""
 
-#: views/admin.php:679
-msgid "Bulk Actions"
-msgstr ""
-
-#: views/admin.php:684
-msgid "Apply"
-msgstr ""
-
-#: views/admin.php:686
-msgid "Export as .csv"
-msgstr ""
-
-#: views/admin.php:745
+#: views/admin.php:727
 msgid "Repeat this event every"
 msgstr ""
 
-#: views/admin.php:748
+#: views/admin.php:730
 msgid "days"
 msgstr ""
 
-#: views/admin.php:749
+#: views/admin.php:731
 msgid "weeks"
 msgstr ""
 
-#: views/admin.php:750
+#: views/admin.php:732
 msgid "months"
 msgstr ""
 
-#: views/admin.php:751
+#: views/admin.php:733
 msgid "years"
 msgstr ""
 
-#: views/admin.php:752
+#: views/admin.php:734
 msgid "hours"
 msgstr ""
 
-#: views/admin.php:753
+#: views/admin.php:735
 msgctxt "continuing from \"Repeat this event every x units _until_\""
 msgid "until"
 msgstr ""
 
-#: views/admin.php:764
+#: views/admin.php:746
 msgid ""
 "Please install the plugin <a href ='http://wordpress.org/extend/plugins/"
 "buddypress-custom-posts/'>BuddyPress Custom Posts</a> for EventPress to "
@@ -945,47 +951,161 @@ msgstr ""
 msgid "registered %s ago."
 msgstr ""
 
-#: views/template.php:115 views/wp-tags.php:62
+#: views/class-ep-regs-list-table.php:33
+msgid "There are no registrations for this event."
+msgstr ""
+
+#: views/class-ep-regs-list-table.php:80
+msgid "Bulk Actions"
+msgstr ""
+
+#: views/class-ep-regs-list-table.php:85
+msgid "Apply"
+msgstr ""
+
+#: views/class-ep-regs-list-table.php:93
+msgid "Export as .csv"
+msgstr ""
+
+#: views/class-ep-regs-list-table.php:195
+msgid "Unpublished"
+msgstr ""
+
+#: views/class-ep-regs-list-table.php:198
+msgid "Y/m/d g:i:s A"
+msgstr ""
+
+#: views/class-ep-regs-list-table.php:205
+#, php-format
+msgid "%s ago"
+msgstr ""
+
+#: views/class-ep-regs-list-table.php:207
+msgid "Y/m/d"
+msgstr ""
+
+#: views/ep-calendar.php:560
+msgid "Sunday"
+msgstr ""
+
+#: views/ep-calendar.php:561
+msgid "Monday"
+msgstr ""
+
+#: views/ep-calendar.php:562
+msgid "Tuesday"
+msgstr ""
+
+#: views/ep-calendar.php:563
+msgid "Wednesday"
+msgstr ""
+
+#: views/ep-calendar.php:564
+msgid "Thursday"
+msgstr ""
+
+#: views/ep-calendar.php:565
+msgid "Friday"
+msgstr ""
+
+#: views/ep-calendar.php:566
+msgid "Saturday"
+msgstr ""
+
+#: views/ep-calendar.php:573
+msgid "January"
+msgstr ""
+
+#: views/ep-calendar.php:574
+msgid "February"
+msgstr ""
+
+#: views/ep-calendar.php:575
+msgid "March"
+msgstr ""
+
+#: views/ep-calendar.php:576
+msgid "April"
+msgstr ""
+
+#: views/ep-calendar.php:577
+msgid "May"
+msgstr ""
+
+#: views/ep-calendar.php:578
+msgid "June"
+msgstr ""
+
+#: views/ep-calendar.php:579
+msgid "July"
+msgstr ""
+
+#: views/ep-calendar.php:580
+msgid "August"
+msgstr ""
+
+#: views/ep-calendar.php:581
+msgid "September"
+msgstr ""
+
+#: views/ep-calendar.php:582
+msgid "October"
+msgstr ""
+
+#: views/ep-calendar.php:583
+msgid "November"
+msgstr ""
+
+#: views/ep-calendar.php:584
+msgid "December"
+msgstr ""
+
+#: views/template.php:143 views/wp-tags.php:62
 msgid "You have signed up for this event."
 msgstr ""
 
-#: views/template.php:118 views/wp-tags.php:65
+#: views/template.php:144 views/template.php:148 views/wp-tags.php:64
+#: views/wp-tags.php:71
+msgid "Unregister"
+msgstr ""
+
+#: views/template.php:147 views/wp-tags.php:69
 msgid "Your registration has not been approved yet."
 msgstr ""
 
-#: views/template.php:121 views/wp-tags.php:68
+#: views/template.php:151 views/wp-tags.php:76
 msgid "Your registration has been cancelled."
 msgstr ""
 
-#: views/template.php:126 views/wp-tags.php:80
+#: views/template.php:156 views/wp-tags.php:88
 msgid "You must be logged in to register for this event."
 msgstr ""
 
-#: views/template.php:127
+#: views/template.php:157
 msgid "Registration is not open."
 msgstr ""
 
-#: views/template.php:210
+#: views/template.php:240
 msgid "Accept"
 msgstr ""
 
-#: views/template.php:211
+#: views/template.php:241
 msgid "Reject"
 msgstr ""
 
-#: views/template.php:236
+#: views/template.php:266
 msgid "Start date"
 msgstr ""
 
-#: views/template.php:237
+#: views/template.php:267
 msgid "End date"
 msgstr ""
 
-#: views/template.php:238
+#: views/template.php:268
 msgid "Registration start"
 msgstr ""
 
-#: views/template.php:239
+#: views/template.php:269
 msgid "Registration end"
 msgstr ""
 
@@ -1002,51 +1122,23 @@ msgstr ""
 msgid "Be the first to register for this event!"
 msgstr ""
 
-#: views/wp-tags.php:86
+#: views/wp-tags.php:94
 #, php-format
 msgid "Registration for this event will start on %s"
 msgstr ""
 
-#: views/wp-tags.php:90
+#: views/wp-tags.php:98
 #, php-format
 msgid "Registration for this event stopped on %s"
 msgstr ""
 
-#: views/wp-tags.php:94
+#: views/wp-tags.php:102
 #, php-format
 msgid "This event ended on %s"
 msgstr ""
 
-#: views/wp-tags.php:98
+#: views/wp-tags.php:106
 msgid "Registration for this event is over."
-msgstr ""
-
-#: views/wp-tags.php:500
-msgid "Sun"
-msgstr ""
-
-#: views/wp-tags.php:501
-msgid "Mon"
-msgstr ""
-
-#: views/wp-tags.php:502
-msgid "Tue"
-msgstr ""
-
-#: views/wp-tags.php:503
-msgid "Wed"
-msgstr ""
-
-#: views/wp-tags.php:504
-msgid "Thu"
-msgstr ""
-
-#: views/wp-tags.php:505
-msgid "Fri"
-msgstr ""
-
-#: views/wp-tags.php:506
-msgid "Sat"
 msgstr ""
 
 #: views/wp-widgets.php:22
@@ -1064,8 +1156,8 @@ msgstr ""
 #. Description of the plugin/theme
 msgid ""
 "A BuddyPress aware events plugin for WordPress. See more details, raise "
-"issues and contribute at <a href = 'http://code.google.com/p/"
-"eventpress/'>http://code.google.com/p/eventpress/</a>."
+"issues and contribute at <a href = 'http://goo.gl/8lN4v'>http://code.google."
+"com/p/eventpress/</a>."
 msgstr ""
 
 #. Author of the plugin/theme
