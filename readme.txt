@@ -1,35 +1,20 @@
 === EventPress  ===
 Contributors: kunalb
 Tags: Events Management, Registration, Events Calendar, BuddyPress
-Requires at least: WordPress 3.1, BuddyPress 1.2.8
-Tested up to: 3.1
-Stable tag: 0.1.2.6
+Requires at least: WordPress 3.2, BuddyPress 1.3
+Tested up to: 3.2
+Stable tag: 0.2
 
-Create Events on WordPress and BuddyPress!
+ToDo: Rewrite
 
 == Description ==
 
-Create events on plain vanilla WordPress installs or on a BuddyPress install! EventPress provides support for creating & registering for events, setting venues, displaying a map, calendar, etc.
-
-Please be sure to read the section on Support and Bugs before asking questions.
-
-== Installation ==
-
-1. Upload `plugin-name.php` to the `/wp-content/plugins/` directory
-2. Activate the plugin through the 'Plugins' menu in WordPress
-
-Note: For this plugin to work properly in BuddyPress, you need to install the plugin <a href = 'http://wordpress.org/extend/plugins/buddypress-custom-posts/'>BuddyPress Custom Posts</a>.
-
 == Features ==
-* Create Events—fully integrated with WordPress; on BuddyPress users can create events with a fully functional UI from the front end itself.
 
 == Frequently Asked Questions ==
 
 = Why? =
 Because.
-
-= Subscribers can't create events. =
-If you want the capabilities for users to create events, upgrade them to event creators from the WordPress dashboard.
 
 == Screenshots ==
 
