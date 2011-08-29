@@ -15,6 +15,16 @@ load_plugin_textdomain( 'eventpress', false, basename( EP_DIR ) . '/lang' );
  */
 require 'constants.php'; 
 
+/**#@+
+ * Load kb-includes
+ */
+ 
+/** Custom Post Type Container */
+require 'includes/kb-cpt.php';
+
+/**#@-*/
+
+
 /**
  * Initialize the EventPress Class.
  */
