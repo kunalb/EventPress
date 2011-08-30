@@ -2,7 +2,7 @@
 /*
 	Plugin Name: EventPress
 	Plugin URI: http://github.com/kunalb/eventpress
-	Description: A complete events plugin for WordPress and BuddyPress.
+	Description: Events plugin for WordPress and BuddyPress.
 	Version: 0.2-bleeding
 	Author: Kunal Bhalla. 
 	Author URI: http://kunal-b.in
@@ -37,4 +37,4 @@
 /**
  * Start your engines!
  */
-require "ep-core.php";
+require "core.php";
