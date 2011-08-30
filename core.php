@@ -38,7 +38,7 @@ class EventPress extends KB_Plugin {
 }
 
 /**
- * Initialize the EventPress Class.
+ * Initialize EventPress.
  */
 new EventPress();
 

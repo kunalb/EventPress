@@ -9,7 +9,7 @@
 	License: GPL2
 	Text Domain: eventpress
 
-	Copyright 2010 Kunal Bhalla  (email : bhalla.kunal@gmail.com)
+	Copyright 2011 Kunal Bhalla  (email : bhalla.kunal@gmail.com)
 
 	This program is free software; you can redistribute it and/or modify
 	it under the terms of the GNU General Public License, version 2, as 
