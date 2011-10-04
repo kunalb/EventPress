@@ -110,6 +110,16 @@ class testClass5 extends KB_At {
 class testClass6 extends testClass5 {
 }
 
+class testClass7 extends KB_At {
+	/**
+	 * @hook shutdown
+	 */
+	public function didAction() {
+		PT_Mime::mime( func_get_args() );
+	}
+}
+
+
 
 /**
  * Checks the doc-block parser and 
@@ -174,5 +184,13 @@ class KB_At_Test extends PHPUnit_Framework_TestCase {
 			Array( 'hook2', Array( $mixed, 'shouldHookAndPrioritize' ), 30, 0 ),
 			Array( 'hook3', Array( $mixed, 'checkArgCount' ), 49, 3 )
 		) );
+	}
+
+	public function testDone() {
+		PT_Mime::fset_return( 'did_action', true );
+		$did = new testClass7();
+		$calls = PT_Mime::cget_calls( 'testClass7', 'didAction' );
+
+		$this->assertEquals( 1, count( $calls ) );
 	}
 }
