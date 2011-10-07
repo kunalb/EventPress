@@ -3,6 +3,7 @@
  * Core file. Initializes constants, loads required files.
  *
  * @package EventPress
+ * @subpackage core
  */
 
 /**
@@ -26,6 +27,8 @@ require 'includes/kb-cpt.php';
 
 /**#@-*/
 
+require 'ep-events.php';
+
 /** 
  * The EventPress Class -- brings it all together.
  */
@@ -33,7 +36,8 @@ class EventPress extends KB_Plugin {
 
 	public function __construct() {
 		parent::__construct(); 
-		$ep = new KB_Cpt('event'); 
+
+		do_action( "EP_init" );
 	}
 }
 
