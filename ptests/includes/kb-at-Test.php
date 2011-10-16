@@ -5,7 +5,7 @@
  *
  * @package PressTest
  * @author Kunal Bhalla
- * @version 0.1
+ * @version 0.2
  */
 
 require PT_MOCK_DIR . '/core.php';
@@ -119,7 +119,10 @@ class testClass7 extends KB_At {
 	}
 }
 
-
+class testClass8 extends testClass5 {
+	public function shouldHook() {
+	}
+}
 
 /**
  * Checks the doc-block parser and 
@@ -131,12 +134,15 @@ class KB_At_Test extends PHPUnit_Framework_TestCase {
 		PT_Mime::clear();
 	}
 
+	/**
+	 * @group basic
+	 */
 	public function testSimple() {
 		$simple = new testClass1();
 		$calls = PT_Mime::fget_calls( 'add_filter' );
 
-		$this->assertEquals( count( $calls ), 1 );
-		$this->assertEquals( $calls[0], Array( 'shutdown', Array( $simple, 'shouldHook'), 10, 0) );
+		$this->assertEquals( 1, count( $calls ) );
+		$this->assertEquals( Array( 'shutdown', Array( $simple, 'shouldHook'), 10, 0), $calls[0] );
 	}
 
 	public function testPriority() {
@@ -193,4 +199,20 @@ class KB_At_Test extends PHPUnit_Framework_TestCase {
 
 		$this->assertEquals( 1, count( $calls ) );
 	}
+
+	/**
+	 * @group extend
+	 */
+	public function testExtends() {
+		$mixed = new testClass8();
+		$calls = PT_Mime::fget_calls( 'add_filter' );
+
+		$this->assertEquals( 3, count( $calls ));
+		$this->assertEquals( $calls, Array(
+			Array( 'shutdown', Array( $mixed, 'shouldHook'), 10, 0),
+			Array( 'hook2', Array( $mixed, 'shouldHookAndPrioritize' ), 30, 0 ),
+			Array( 'hook3', Array( $mixed, 'checkArgCount' ), 49, 3 )
+		) );
+	}
+
 }

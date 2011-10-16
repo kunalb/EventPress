@@ -8,10 +8,6 @@
  */
 class EP_Events extends KB_Cpt {
 	protected $id = 'ep_event';
-	protected $icon32; 
-	protected $icon16;
-	protected $icon16a;
-	protected $args = Array();
 
 	/**
 	 * @hook EP_init
@@ -21,6 +17,7 @@ class EP_Events extends KB_Cpt {
 		$this->icon16  = EP_IMAGES_URL . '/calendar16.png';
 		$this->icon16a = EP_IMAGES_URL . '/calendar16a.png';
 		$this->icon16x = EP_IMAGES_URL . '/calendar16x.png';
+
 		$this->args = Array(
 			'labels'     => Array( 
 				'name'               => __( 'Events',                   'eventpress' ), 
@@ -55,10 +52,15 @@ class EP_Events extends KB_Cpt {
 	}
 
 	public function taxonomies() {
+		KB_Init( "Called" );
 	}
 
 	public function edit_resources() {
 		wp_enqueue_style( 'ep-event-edit', EP_STYLES_URL . '/ep-event-edit.css');
+	}
+
+	public function help( $screen ) {
+		return $screen->post_type;
 	}
 }
 
