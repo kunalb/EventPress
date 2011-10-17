@@ -33,29 +33,21 @@ class EP_Events extends KB_Cpt {
 				'parent_item_colon'  => __( 'Parent Event',             'eventpress' ),
 				'menu_name'          => __( 'Events',                   'eventpress' )
 			),
-			'description'   => __( 'Any events you would like to share on your blog: anything from conventions to birthdays!', 'eventpress' ),
-			'public'        => true,
-			'show_in_menu'  => true,
-			'menu_position' => 5, 
-			'map_meta_cap'  => true,
-			'capability'    => Array( 'ep_event', 'ep_events' ), /* For backpat */
-			'hierarchical'  => true,
-			'supports'      => Array( 'title', 'editor', 'author', 'thumbnail', 'excerpt', 'trackback', 'custom-fields', 'comments', 'revisions', 'page-attributes' ),
-			'has_archive'   => true,
-			'rewrite'       => Array( 'slug' => 'event' ),
-			'register_meta_box_cb' => Array( $this, 'metaboxes' ), 
-			'taxonomies' => Array( 'ep_category', 'ep_tag' ) 
+			'description'    => __( 'Any events you would like to share on your blog: anything from conventions to birthdays!', 'eventpress' ),
+			'public'         => true,
+			'show_in_menu'   => true,
+			'menu_position'  => 5, 
+			'map_meta_cap'   => true,
+			'capability'     => Array( 'ep_event', 'ep_events' ), /* For backpat */
+			'hierarchical'   => true,
+			'supports'       => Array( 'title', 'editor', 'author', 'thumbnail', 'excerpt', 'trackback', 'custom-fields', 'comments', 'revisions', 'page-attributes' ),
+			'has_archive'    => true,
+			'rewrite'        => Array( 'slug' => 'event' ),
+			'taxonomies'     => Array( 'ep_category', 'ep_tag' ) 
 		);
 	}
 
-	public function metaboxes() {
-	}
-
-	public function taxonomies() {
-		KB_Init( "Called" );
-	}
-
-	public function edit_resources() {
+	public function edit_resources( $screen ) {
 		wp_enqueue_style( 'ep-event-edit', EP_STYLES_URL . '/ep-event-edit.css');
 	}
 
