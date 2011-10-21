@@ -13,6 +13,8 @@ class EP_Events extends KB_Cpt {
 	 * @hook EP_init
 	 */
 	public function set_args() {
+		$this->testSetting = new EP_Setting( 'enable events', true );
+
 		$this->icon32  = EP_IMAGES_URL . '/calendar.png';
 		$this->icon16  = EP_IMAGES_URL . '/calendar16.png';
 		$this->icon16a = EP_IMAGES_URL . '/calendar16a.png';

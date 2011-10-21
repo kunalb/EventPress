@@ -20,15 +20,16 @@ require 'constants.php';
  * Load kb-includes
  */
  
-/** Custom Post Type Container */
 require 'includes/kb-at.php';
 require 'includes/kb-plugin.php';
 require 'includes/kb-cpt.php';
 require 'includes/kb-admin.php';
+require 'includes/kb-setting.php';
 require 'includes/kb-config.php';
 
 /**#@-*/
 
+require 'ep-setting.php';
 require 'ep-config.php';
 require 'ep-events.php';
 
