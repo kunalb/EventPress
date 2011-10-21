@@ -26,12 +26,15 @@ require 'includes/kb-cpt.php';
 require 'includes/kb-admin.php';
 require 'includes/kb-setting.php';
 require 'includes/kb-config.php';
+require 'includes/kb-meta-box.php';
 
 /**#@-*/
 
 require 'ep-setting.php';
 require 'ep-config.php';
 require 'ep-events.php';
+require 'ep-time-mb.php';
+require 'ep-reg-mb.php';
 
 /** 
  * The EventPress Class -- brings it all together.
