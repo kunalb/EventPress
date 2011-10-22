@@ -14,12 +14,12 @@ class EP_Reg_MB extends KB_Meta_Box {
 	protected $context = 'normal';
 
 	public function __construct() {
-		$this->title = __( "Registration Details", 'eventpress' );
-		parent::__construct();
-
-		$this->setting = new EP_Setting( 'Registration', Array(
-			'Enabled' => true
-		) );
+		$this->setting = new EP_Setting( 'Registration\\Enabled', true );
+		
+		if( $this->setting->get() ) {
+			$this->title = __( "Registration Details", 'eventpress' );
+			parent::__construct();
+		}
 	}
 }
 

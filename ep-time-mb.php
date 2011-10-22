@@ -19,7 +19,7 @@ class EP_Time_MB extends KB_Meta_Box {
 		$this->priority = 'high';
 		parent::__construct();
 
-		$this->setting = new EP_Setting( 'Event Schedule', Array(
+		$this->setting = new EP_Setting( 'Event Metadata\\Schedule', Array(
 			'Show controls for hours and minutes' => true
 		) );
 	}
