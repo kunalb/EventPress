@@ -48,7 +48,7 @@ class EP_Events extends KB_Cpt {
 	}
 
 	public function edit_resources( $screen ) {
-		wp_enqueue_style( 'ep-event-edit', EP_STYLES_URL . '/ep-event-edit.css');
+		wp_enqueue_script( 'ep-edit', EP_SCRIPTS_URL . '/edit.js' );
 	}
 
 	public function help( $screen ) {

@@ -1,0 +1,12 @@
+/**
+ * Styling for the ep-schedule metabox.
+ */
+
+#ep-schedule-scriptless {
+	text-align: center;
+}
+
+.ep-schedule-format {
+	font-size: .9em;
+	color: #999;
+}
