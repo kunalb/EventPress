@@ -1,3 +1,7 @@
+** NO LONGER UNDER ACTIVE DEVELOPMENT **
+
+As EventPress clashes with products offered by my current employer, development on EventPress is on hold indefinitely. Please feel free to fork, develop EP further as you like.
+
 === EventPress  ===
 Contributors: kunalb
 Tags: Events Management, Registration, Events Calendar, BuddyPress
